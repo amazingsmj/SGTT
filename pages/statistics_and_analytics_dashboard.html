@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistiques et Analyses - ART Telecom Titles Manager</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fartteleco4172back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background min-h-screen">
+    <!-- Header with Dual Logos -->
+    <header class="bg-surface shadow-institutional border-b border-secondary-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Polytechnique Logo (Left) -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-auto" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0" y="0" width="40" height="40" rx="6" fill="#1E3A8A"/>
+                            <text x="50" y="15" font-family="Inter" font-size="12" font-weight="600" fill="#1E3A8A">POLYTECHNIQUE</text>
+                            <text x="50" y="28" font-family="Inter" font-size="8" fill="#64748B">CAMEROUN</text>
+                            <circle cx="20" cy="20" r="12" fill="white"/>
+                            <path d="M15 20l3 3 7-7" stroke="#1E3A8A" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="dashboard_overview.html" class="text-secondary-600 hover:text-primary transition-colors">
+                        <i class="fas fa-tachometer-alt mr-2"></i>Tableau de bord
+                    </a>
+                    <a href="telecommunications_titles_management.html" class="text-secondary-600 hover:text-primary transition-colors">
+                        <i class="fas fa-certificate mr-2"></i>Titres
+                    </a>
+                    <a href="user_management_administration.html" class="text-secondary-600 hover:text-primary transition-colors">
+                        <i class="fas fa-users mr-2"></i>Utilisateurs
+                    </a>
+                    <a href="statistics_and_analytics_dashboard.html" class="text-primary font-medium">
+                        <i class="fas fa-chart-bar mr-2"></i>Statistiques
+                    </a>
+                </nav>
+
+                <!-- User Menu -->
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <button id="userMenuButton" class="flex items-center text-secondary-600 hover:text-primary transition-colors">
+                            <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center mr-2">
+                                <i class="fas fa-user text-primary text-sm"></i>
+                            </div>
+                            <span class="hidden md:block text-sm font-medium" id="currentUserName">Administrateur ART</span>
+                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </button>
+                        <div id="userDropdown" class="hidden absolute right-0 mt-2 w-48 bg-surface rounded-md shadow-elevated border border-secondary-200 z-50">
+                            <div class="py-1">
+                                <a href="javascript:void(0)" class="block px-4 py-2 text-sm text-secondary-700 hover:bg-secondary-50">
+                                    <i class="fas fa-user-circle mr-2"></i>Profil
+                                </a>
+                                <a href="javascript:void(0)" class="block px-4 py-2 text-sm text-secondary-700 hover:bg-secondary-50">
+                                    <i class="fas fa-cog mr-2"></i>Paramètres
+                                </a>
+                                <div class="border-t border-secondary-200"></div>
+                                <a href="login_authentication.html" class="block px-4 py-2 text-sm text-error hover:bg-error-50">
+                                    <i class="fas fa-sign-out-alt mr-2"></i>Déconnexion
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ART Logo (Right) -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-auto" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0" y="0" width="40" height="40" rx="6" fill="#0EA5E9"/>
+                            <text x="50" y="15" font-family="Inter" font-size="14" font-weight="700" fill="#1E3A8A">ART</text>
+                            <text x="50" y="28" font-family="Inter" font-size="8" fill="#64748B">CAMEROUN</text>
+                            <circle cx="20" cy="20" r="8" fill="white"/>
+                            <path d="M16 20h8M20 16v8" stroke="#0EA5E9" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-surface border-b border-secondary-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="flex items-center space-x-2">
+                    <li>
+                        <a href="dashboard_overview.html" class="text-secondary-500 hover:text-primary transition-colors">
+                            <i class="fas fa-home"></i>
+                            <span class="ml-2">Tableau de bord</span>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-right text-secondary-400 text-sm"></i>
+                    </li>
+                    <li>
+                        <span class="text-primary font-medium">Statistiques</span>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Page Header -->
+        <div class="mb-8">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                    <h1 class="text-3xl font-semibold text-text-primary mb-2">
+                        <i class="fas fa-chart-bar text-primary mr-3"></i>
+                        Statistiques et Analyses
+                    </h1>
+                    <p class="text-secondary-600">Analyse des données des titres de télécommunications</p>
+                </div>
+                <div class="mt-4 sm:mt-0 flex space-x-3">
+                    <button id="exportBtn" class="btn-secondary">
+                        <i class="fas fa-download mr-2"></i>
+                        Exporter
+                    </button>
+                    <button id="refreshBtn" class="btn-primary">
+                        <i class="fas fa-sync-alt mr-2"></i>
+                        Actualiser
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="card mb-8">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0 lg:space-x-6">
+                <div class="flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <!-- Date Range Filter -->
+                    <div class="flex items-center space-x-2">
+                        <label class="text-sm font-medium text-text-primary whitespace-nowrap">Période:</label>
+                        <input type="date" id="startDate" class="input-field text-sm" value="2025-01-01" />
+                        <span class="text-secondary-500">à</span>
+                        <input type="date" id="endDate" class="input-field text-sm" value="2025-07-29" />
+                    </div>
+
+                    <!-- Role Filter -->
+                    <div class="flex items-center space-x-2">
+                        <label class="text-sm font-medium text-text-primary whitespace-nowrap">Rôle:</label>
+                        <select id="roleFilter" class="input-field text-sm">
+                            <option value>Tous les rôles</option>
+                            <option value="administrator">Administrateur</option>
+                            <option value="accountant">Comptable</option>
+                        </select>
+                    </div>
+
+                    <!-- Status Filter -->
+                    <div class="flex items-center space-x-2">
+                        <label class="text-sm font-medium text-text-primary whitespace-nowrap">Statut:</label>
+                        <select id="statusFilter" class="input-field text-sm">
+                            <option value>Tous les statuts</option>
+                            <option value="active">Actif</option>
+                            <option value="expired">Expiré</option>
+                            <option value="pending">En attente</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="applyFilters" class="btn-primary">
+                    <i class="fas fa-filter mr-2"></i>
+                    Appliquer les filtres
+                </button>
+            </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <!-- Total Titles -->
+            <div class="card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium text-secondary-600">Total des Titres</p>
+                        <p class="text-2xl font-semibold text-text-primary" id="totalTitles">1 247</p>
+                        <div class="flex items-center mt-1">
+                            <i class="fas fa-arrow-up text-success text-sm mr-1"></i>
+                            <span class="text-success text-sm font-medium">+12%</span>
+                            <span class="text-secondary-500 text-sm ml-1">vs mois dernier</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-certificate text-primary text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Titles -->
+            <div class="card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium text-secondary-600">Titres Actifs</p>
+                        <p class="text-2xl font-semibold text-text-primary" id="activeTitles">1 089</p>
+                        <div class="flex items-center mt-1">
+                            <i class="fas fa-arrow-up text-success text-sm mr-1"></i>
+                            <span class="text-success text-sm font-medium">+8%</span>
+                            <span class="text-secondary-500 text-sm ml-1">vs mois dernier</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-success-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-check-circle text-success text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Revenue -->
+            <div class="card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium text-secondary-600">Revenus (XAF)</p>
+                        <p class="text-2xl font-semibold text-text-primary" id="totalRevenue">2 450 000</p>
+                        <div class="flex items-center mt-1">
+                            <i class="fas fa-arrow-up text-success text-sm mr-1"></i>
+                            <span class="text-success text-sm font-medium">+15%</span>
+                            <span class="text-secondary-500 text-sm ml-1">vs mois dernier</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-accent-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-coins text-accent text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expiring Soon -->
+            <div class="card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium text-secondary-600">Expirent Bientôt</p>
+                        <p class="text-2xl font-semibold text-text-primary" id="expiringSoon">23</p>
+                        <div class="flex items-center mt-1">
+                            <i class="fas fa-arrow-down text-warning text-sm mr-1"></i>
+                            <span class="text-warning text-sm font-medium">-5%</span>
+                            <span class="text-secondary-500 text-sm ml-1">vs mois dernier</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 bg-warning-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-exclamation-triangle text-warning text-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Active Titles per User Chart -->
+            <div class="card">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-lg font-semibold text-text-primary">
+                        <i class="fas fa-user-chart text-primary mr-2"></i>
+                        Titres Actifs par Utilisateur
+                    </h3>
+                    <div class="flex space-x-2">
+                        <button class="text-secondary-500 hover:text-primary transition-colors" onclick="toggleChartView('userChart')">
+                            <i class="fas fa-expand-alt"></i>
+                        </button>
+                        <button class="text-secondary-500 hover:text-primary transition-colors" onclick="exportChart('userChart')">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="relative h-80">
+                    <canvas id="userChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Status Distribution Chart -->
+            <div class="card">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-lg font-semibold text-text-primary">
+                        <i class="fas fa-chart-pie text-primary mr-2"></i>
+                        Distribution par Statut
+                    </h3>
+                    <div class="flex space-x-2">
+                        <button class="text-secondary-500 hover:text-primary transition-colors" onclick="toggleChartView('statusChart')">
+                            <i class="fas fa-expand-alt"></i>
+                        </button>
+                        <button class="text-secondary-500 hover:text-primary transition-colors" onclick="exportChart('statusChart')">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="relative h-80">
+                    <canvas id="statusChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monthly Trends Chart -->
+        <div class="card mb-8">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-lg font-semibold text-text-primary">
+                    <i class="fas fa-chart-line text-primary mr-2"></i>
+                    Tendances Mensuelles des Enregistrements
+                </h3>
+                <div class="flex space-x-2">
+                    <button class="text-secondary-500 hover:text-primary transition-colors" onclick="toggleChartView('trendsChart')">
+                        <i class="fas fa-expand-alt"></i>
+                    </button>
+                    <button class="text-secondary-500 hover:text-primary transition-colors" onclick="exportChart('trendsChart')">
+                        <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="relative h-96">
+                <canvas id="trendsChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Expiration Forecast -->
+        <div class="card">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-lg font-semibold text-text-primary">
+                    <i class="fas fa-calendar-times text-primary mr-2"></i>
+                    Prévisions d'Expiration (6 prochains mois)
+                </h3>
+                <div class="flex space-x-2">
+                    <button class="text-secondary-500 hover:text-primary transition-colors" onclick="toggleChartView('expirationChart')">
+                        <i class="fas fa-expand-alt"></i>
+                    </button>
+                    <button class="text-secondary-500 hover:text-primary transition-colors" onclick="exportChart('expirationChart')">
+                        <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="relative h-80">
+                <canvas id="expirationChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Data Table Section -->
+        <div class="card mt-8" id="dataTableSection">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-lg font-semibold text-text-primary">
+                    <i class="fas fa-table text-primary mr-2"></i>
+                    Données Détaillées
+                </h3>
+                <div class="flex space-x-2">
+                    <button class="btn-secondary text-sm" onclick="exportTableData()">
+                        <i class="fas fa-file-excel mr-2"></i>
+                        Exporter Excel
+                    </button>
+                    <button class="btn-secondary text-sm" onclick="exportTablePDF()">
+                        <i class="fas fa-file-pdf mr-2"></i>
+                        Exporter PDF
+                    </button>
+                </div>
+            </div>
+            
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-secondary-200">
+                    <thead class="bg-secondary-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Utilisateur
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Rôle
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Titres Actifs
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Titres Expirés
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Revenus (XAF)
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">
+                                Dernière Activité
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-surface divide-y divide-secondary-200" id="dataTableBody">
+                        <!-- Table data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Chart Modal for Full Screen View -->
+    <div id="chartModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-surface rounded-lg shadow-modal max-w-6xl w-full mx-4 p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="modalChartTitle" class="text-lg font-semibold text-text-primary">Graphique</h3>
+                <button onclick="closeChartModal()" class="text-secondary-500 hover:text-secondary-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <div class="relative h-96">
+                <canvas id="modalChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="fixed inset-0 bg-black bg-opacity-30 hidden items-center justify-center z-40">
+        <div class="bg-surface rounded-lg p-6 flex items-center space-x-3">
+            <i class="fas fa-spinner fa-spin text-primary text-xl"></i>
+            <span class="text-text-primary font-medium">Chargement des données...</span>
+        </div>
+    </div>
+
+    <script>
+        // Mock data for charts and analytics
+        const mockData = {
+            users: [
+                { name: 'Marie Dubois', role: 'administrator', activeTitles: 245, expiredTitles: 12, revenue: 650000, lastActivity: '2025-07-29' },
+                { name: 'Jean Kamga', role: 'accountant', activeTitles: 189, expiredTitles: 8, revenue: 420000, lastActivity: '2025-07-28' },
+                { name: 'Sophie Nkomo', role: 'administrator', activeTitles: 167, expiredTitles: 15, revenue: 380000, lastActivity: '2025-07-29' },
+                { name: 'Paul Mbarga', role: 'accountant', activeTitles: 134, expiredTitles: 6, revenue: 290000, lastActivity: '2025-07-27' },
+                { name: 'Fatima Bello', role: 'administrator', activeTitles: 112, expiredTitles: 9, revenue: 250000, lastActivity: '2025-07-29' },
+                { name: 'André Fouda', role: 'accountant', activeTitles: 98, expiredTitles: 4, revenue: 210000, lastActivity: '2025-07-26' },
+                { name: 'Claire Essomba', role: 'administrator', activeTitles: 87, expiredTitles: 7, revenue: 180000, lastActivity: '2025-07-28' },
+                { name: 'Michel Owona', role: 'accountant', activeTitles: 57, expiredTitles: 3, revenue: 110000, lastActivity: '2025-07-25' }
+            ],
+            monthlyTrends: [
+                { month: 'Jan 2025', registrations: 45, revenue: 320000 },
+                { month: 'Fév 2025', registrations: 52, revenue: 380000 },
+                { month: 'Mar 2025', registrations: 38, revenue: 290000 },
+                { month: 'Avr 2025', registrations: 61, revenue: 450000 },
+                { month: 'Mai 2025', registrations: 48, revenue: 340000 },
+                { month: 'Jun 2025', registrations: 55, revenue: 410000 },
+                { month: 'Jul 2025', registrations: 43, revenue: 320000 }
+            ],
+            expirationForecast: [
+                { month: 'Août 2025', expiring: 23 },
+                { month: 'Sep 2025', expiring: 31 },
+                { month: 'Oct 2025', expiring: 18 },
+                { month: 'Nov 2025', expiring: 27 },
+                { month: 'Déc 2025', expiring: 35 },
+                { month: 'Jan 2026', expiring: 22 }
+            ]
+        };
+
+        let charts = {};
+
+        // Initialize charts when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeCharts();
+            populateDataTable();
+            setupEventListeners();
+            loadUserSession();
+        });
+
+        function loadUserSession() {
+            const currentUser = JSON.parse(sessionStorage.getItem('currentUser') || '{}');
+            if (currentUser.name) {
+                document.getElementById('currentUserName').textContent = currentUser.name;
+            }
+        }
+
+        function initializeCharts() {
+            showLoading();
+            
+            setTimeout(() => {
+                createUserChart();
+                createStatusChart();
+                createTrendsChart();
+                createExpirationChart();
+                hideLoading();
+            }, 1000);
+        }
+
+        function createUserChart() {
+            const ctx = document.getElementById('userChart').getContext('2d');
+            const userData = mockData.users.slice(0, 6); // Top 6 users
+            
+            charts.userChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: userData.map(user => user.name.split(' ')[0]),
+                    datasets: [{
+                        label: 'Titres Actifs',
+                        data: userData.map(user => user.activeTitles),
+                        backgroundColor: '#3B82F6',
+                        borderColor: '#1E3A8A',
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const user = userData[context.dataIndex];
+                                    return [
+                                        `Titres actifs: ${user.activeTitles}`,
+                                        `Revenus: ${formatCurrency(user.revenue)} XAF`,
+                                        `Rôle: ${user.role === 'administrator' ? 'Administrateur' : 'Comptable'}`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: '#E2E8F0'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const user = userData[index];
+                            filterDataByUser(user.name);
+                        }
+                    }
+                }
+            });
+        }
+
+        function createStatusChart() {
+            const ctx = document.getElementById('statusChart').getContext('2d');
+            
+            charts.statusChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Actifs', 'Expirés', 'En attente'],
+                    datasets: [{
+                        data: [1089, 61, 97],
+                        backgroundColor: ['#10B981', '#DC2626', '#F59E0B'],
+                        borderColor: ['#059669', '#B91C1C', '#D97706'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.parsed / total) * 100).toFixed(1);
+                                    return `${context.label}: ${context.parsed} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function createTrendsChart() {
+            const ctx = document.getElementById('trendsChart').getContext('2d');
+            
+            charts.trendsChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: mockData.monthlyTrends.map(item => item.month),
+                    datasets: [
+                        {
+                            label: 'Enregistrements',
+                            data: mockData.monthlyTrends.map(item => item.registrations),
+                            borderColor: '#3B82F6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                            tension: 0.4,
+                            fill: true,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'Revenus (milliers XAF)',
+                            data: mockData.monthlyTrends.map(item => item.revenue / 1000),
+                            borderColor: '#10B981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            tension: 0.4,
+                            fill: false,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: true,
+                            grid: {
+                                display: false
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            grid: {
+                                color: '#E2E8F0'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Enregistrements'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                            title: {
+                                display: true,
+                                text: 'Revenus (milliers XAF)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function createExpirationChart() {
+            const ctx = document.getElementById('expirationChart').getContext('2d');
+            
+            charts.expirationChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: mockData.expirationForecast.map(item => item.month),
+                    datasets: [{
+                        label: 'Titres expirant',
+                        data: mockData.expirationForecast.map(item => item.expiring),
+                        backgroundColor: '#F59E0B',
+                        borderColor: '#D97706',
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: '#E2E8F0'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function populateDataTable() {
+            const tableBody = document.getElementById('dataTableBody');
+            tableBody.innerHTML = '';
+
+            mockData.users.forEach(user => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-secondary-50 transition-colors';
+                
+                row.innerHTML = `
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-user text-primary text-sm"></i>
+                            </div>
+                            <div class="text-sm font-medium text-text-primary">${user.name}</div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="status-badge ${user.role === 'administrator' ? 'bg-primary-100 text-primary-800' : 'bg-accent-100 text-accent-800'}">
+                            ${user.role === 'administrator' ? 'Administrateur' : 'Comptable'}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-text-primary font-data">
+                        ${user.activeTitles}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-text-primary font-data">
+                        ${user.expiredTitles}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-text-primary font-data">
+                        ${formatCurrency(user.revenue)} XAF
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-secondary-600">
+                        ${formatDate(user.lastActivity)}
+                    </td>
+                `;
+                
+                tableBody.appendChild(row);
+            });
+        }
+
+        function setupEventListeners() {
+            // User menu toggle
+            document.getElementById('userMenuButton').addEventListener('click', function() {
+                const dropdown = document.getElementById('userDropdown');
+                dropdown.classList.toggle('hidden');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                const userMenu = document.getElementById('userMenuButton');
+                const dropdown = document.getElementById('userDropdown');
+                
+                if (!userMenu.contains(event.target)) {
+                    dropdown.classList.add('hidden');
+                }
+            });
+
+            // Filter buttons
+            document.getElementById('applyFilters').addEventListener('click', applyFilters);
+            document.getElementById('refreshBtn').addEventListener('click', refreshData);
+            document.getElementById('exportBtn').addEventListener('click', showExportOptions);
+        }
+
+        function applyFilters() {
+            showLoading();
+            
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const role = document.getElementById('roleFilter').value;
+            const status = document.getElementById('statusFilter').value;
+
+            // Simulate filtering delay
+            setTimeout(() => {
+                // In a real app, this would filter the actual data
+                console.log('Applying filters:', { startDate, endDate, role, status });
+                hideLoading();
+                
+                // Show success message
+                showNotification('Filtres appliqués avec succès', 'success');
+            }, 1000);
+        }
+
+        function refreshData() {
+            showLoading();
+            
+            setTimeout(() => {
+                // Refresh all charts
+                Object.values(charts).forEach(chart => {
+                    chart.update();
+                });
+                
+                // Refresh table
+                populateDataTable();
+                
+                hideLoading();
+                showNotification('Données actualisées', 'success');
+            }, 1500);
+        }
+
+        function showExportOptions() {
+            const options = [
+                { label: 'Exporter en PDF', action: () => exportToPDF() },
+                { label: 'Exporter en Excel', action: () => exportToExcel() },
+                { label: 'Exporter les graphiques', action: () => exportCharts() }
+            ];
+
+            // Simple alert for demo - in real app, show proper modal
+            const choice = prompt('Options d\'export:\n1. PDF\n2. Excel\n3. Graphiques\n\nEntrez votre choix (1-3):');
+            
+            if (choice >= 1 && choice <= 3) {
+                options[choice - 1].action();
+            }
+        }
+
+        function exportToPDF() {
+            showNotification('Export PDF en cours...', 'info');
+            setTimeout(() => {
+                showNotification('Rapport PDF généré avec succès', 'success');
+            }, 2000);
+        }
+
+        function exportToExcel() {
+            showNotification('Export Excel en cours...', 'info');
+            setTimeout(() => {
+                showNotification('Fichier Excel généré avec succès', 'success');
+            }, 2000);
+        }
+
+        function exportCharts() {
+            showNotification('Export des graphiques en cours...', 'info');
+            setTimeout(() => {
+                showNotification('Graphiques exportés avec succès', 'success');
+            }, 2000);
+        }
+
+        function toggleChartView(chartId) {
+            const modal = document.getElementById('chartModal');
+            const modalChart = document.getElementById('modalChart');
+            const modalTitle = document.getElementById('modalChartTitle');
+            
+            // Set title based on chart
+            const titles = {
+                'userChart': 'Titres Actifs par Utilisateur',
+                'statusChart': 'Distribution par Statut',
+                'trendsChart': 'Tendances Mensuelles',
+                'expirationChart': 'Prévisions d\'Expiration'
+            };
+            
+            modalTitle.textContent = titles[chartId];
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            
+            // Clone chart data to modal
+            const originalChart = charts[chartId];
+            if (originalChart) {
+                const modalCtx = modalChart.getContext('2d');
+                new Chart(modalCtx, {
+                    type: originalChart.config.type,
+                    data: originalChart.data,
+                    options: {
+                        ...originalChart.options,
+                        maintainAspectRatio: false
+                    }
+                });
+            }
+        }
+
+        function closeChartModal() {
+            const modal = document.getElementById('chartModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            
+            // Destroy modal chart
+            const modalChart = Chart.getChart('modalChart');
+            if (modalChart) {
+                modalChart.destroy();
+            }
+        }
+
+        function exportChart(chartId) {
+            const chart = charts[chartId];
+            if (chart) {
+                const url = chart.toBase64Image();
+                const link = document.createElement('a');
+                link.download = `${chartId}_export.png`;
+                link.href = url;
+                link.click();
+                
+                showNotification('Graphique exporté avec succès', 'success');
+            }
+        }
+
+        function exportTableData() {
+            showNotification('Export Excel en cours...', 'info');
+            setTimeout(() => {
+                showNotification('Données exportées en Excel', 'success');
+            }, 1500);
+        }
+
+        function exportTablePDF() {
+            showNotification('Export PDF en cours...', 'info');
+            setTimeout(() => {
+                showNotification('Données exportées en PDF', 'success');
+            }, 1500);
+        }
+
+        function filterDataByUser(userName) {
+            // Simulate filtering data table by user
+            const rows = document.querySelectorAll('#dataTableBody tr');
+            rows.forEach(row => {
+                const userCell = row.querySelector('td .text-sm.font-medium');
+                if (userCell && userCell.textContent !== userName) {
+                    row.style.opacity = '0.3';
+                } else {
+                    row.style.opacity = '1';
+                }
+            });
+            
+            showNotification(`Données filtrées pour ${userName}`, 'info');
+        }
+
+        function showLoading() {
+            document.getElementById('loadingOverlay').classList.remove('hidden');
+            document.getElementById('loadingOverlay').classList.add('flex');
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingOverlay').classList.add('hidden');
+            document.getElementById('loadingOverlay').classList.remove('flex');
+        }
+
+        function showNotification(message, type = 'info') {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = `fixed top-4 right-4 z-50 p-4 rounded-md shadow-elevated max-w-sm transition-all duration-300 transform translate-x-full`;
+            
+            const colors = {
+                success: 'bg-success-50 border border-success-200 text-success-800',
+                error: 'bg-error-50 border border-error-200 text-error-800',
+                warning: 'bg-warning-50 border border-warning-200 text-warning-800',
+                info: 'bg-accent-50 border border-accent-200 text-accent-800'
+            };
+            
+            const icons = {
+                success: 'fas fa-check-circle',
+                error: 'fas fa-exclamation-circle',
+                warning: 'fas fa-exclamation-triangle',
+                info: 'fas fa-info-circle'
+            };
+            
+            notification.className += ` ${colors[type]}`;
+            notification.innerHTML = `
+                <div class="flex items-center">
+                    <i class="${icons[type]} mr-2"></i>
+                    <span class="text-sm font-medium">${message}</span>
+                    <button onclick="this.parentElement.parentElement.remove()" class="ml-4 text-current opacity-70 hover:opacity-100">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.classList.remove('translate-x-full');
+            }, 100);
+            
+            // Auto remove after 5 seconds
+            setTimeout(() => {
+                notification.classList.add('translate-x-full');
+                setTimeout(() => {
+                    if (notification.parentElement) {
+                        notification.remove();
+                    }
+                }, 300);
+            }, 5000);
+        }
+
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('fr-FR', {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('fr-FR', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+        }
+
+        // Close modal on outside click
+        document.getElementById('chartModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeChartModal();
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

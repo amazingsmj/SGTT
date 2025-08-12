@@ -35,6 +35,9 @@ Logins :
         * Role : Operateur
 
 
-Afficher les DB : SHOW DATABASES;
+Afficher les DB : 
+    * Afficher les bases de donnees : " SHOW DATABASES; "
+    * Utiliser la base de donnee telecom_db : " use telecom_db; "
+    * Afficher les tables de la base de donnee telecom_db : " show tables; "
 
 

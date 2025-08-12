@@ -1,107 +1,1629 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ART Telecom Titles Manager</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+<b-card class="wizard-card">
+        <!-- Barre de progression -->
+        <b-progress
+          :value="progressValue"
+          max="100"
+          variant="primary"
+          class="mb-3"
+          style="margin-top: -10px"
+        ></b-progress>
+        <h4 class="text-center">{{ stepTitles[currentStep - 1] }}</h4>
+        <div class="aideFlottanteDeclaration">
+          <p class="text-muted text-center" id="CurrentState">
+            {{ $t("Étape") }} {{ currentStep }} {{ $t("sur") }}
+            {{ stepTitles.length }}
+          </p>
+          <div class="pointDinterrogation" v-if="currentStep === 1">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout de lagent constatateur ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 2">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout de la localisation ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 3">
+            <aide-flottante
+              :description="
+                $t('Vous rencontrez des problèmes pour lajout de laccident ?')
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 4">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout des informations sur la route ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 5">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout des véhicules concernés ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 6">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout des usagers concernés ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+          <div class="pointDinterrogation" v-else-if="currentStep === 7">
+            <aide-flottante
+              :description="
+                $t('Vous rencontrez des problèmes pour lajout du croquis ?')
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+
+
+
+          <div class="pointDinterrogation" v-else-if="currentStep === 8">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout des dépositions ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+
+
+          <div class="pointDinterrogation" v-else-if="currentStep === 9">
+            <aide-flottante
+              :description="
+                $t(
+                  'Vous rencontrez des problèmes pour lajout des dépositions ?'
+                )
+              "
+              :lien="lienDynamique"
+            />
+          </div>
+        </div>
+
+        <!-- Étape 1 -->
+
+        <div v-if="currentStep === 1">
+          <b-row>
+            <!-- <div class="col-md-12 pb-3">
+  <div class="input-group">
+  
+  
+  <span class="input-group-text">
+  <i class="fas fa-search"></i>
+  </span>
+  <input
+  v-model="searchPersonne"
+  @input="fetchPersonnes" 
+  type="text"
+  class="form-control"
+  placeholder="Rechercher une personne"
+  />
+  
+  
+  
+  </div>
+  
+  <div v-if="personnes.length" class="result-container mt-3">
+  <ul class="result-list">
+  <li 
+   v-for="personne in personnes" 
+   :key="personne.id" 
+   class="result-item d-flex align-items-center"
+   @click="selectPersonne(personne)"
+   style="cursor: pointer;"
+  >
+   
+   <strong>{{ personne.firstName }} {{ personne.lastName }}</strong>  
+  
+  
+  </li>
+  </ul>
+  </div>
+  
+  
+  </div> -->
+
+            <!-- <b-form-group 
+            v-for="(field, index) in fields" 
+            :key="index" 
+            class="col-md-4" 
+            :label="field.label" 
+            :label-for="field.name"
+          >
+           
+            <b-form-input
+              v-if="field.type === 'search'"
+              type="search"
+              v-model="formData[field.name]"
+              :placeholder="field.placeholder"
+              @input="onSearchInput(field.name)"
+              :required="field.required"
+            /> -->
+
+            <!--       
+            <b-form-input
+              v-if="field.type === 'text'"
+              :type="field.type"
+              v-model="formData[field.name]"
+              :placeholder="field.placeholder"
+              :required="field.required"
+            />
+  
+         
+            
+            
+            <b-form-select
+              v-if="field.type === 'select'"
+              v-model="formData[field.name]"
+              :required="field.required"
+            >
+              <option value="" disabled>Choisissez une option</option>
+              <option
+                v-for="option in respdata[field.optionsSource]"
+                :key="option.id"
+                :value="option.id"
+              >
+                {{ option.value }}
+              </option>
+            </b-form-select>
+         
+         
+          </b-form-group>
+  
+          <b-form-group    class="col-md-4"  s:label="$t('Examun')" label-for="service-input">
+                    <field-search-input
+                        :model="formExamenData"
+                        :schema="fieldNameEx"
+                    />
+                  </b-form-group>
+          -->
+
+            <!-- <b-form-group
+  class="col-md-4"
+  :label="$t('Nom o')"
+  label-for="input-1"
+  >
+  <b-form-input v-model="dataPerson.firstName"  type="text"></b-form-input>
+  
+  
+  </b-form-group>
+  
+  
+  <b-form-group
+  class="col-md-4"
+  :label="$t('Prénom officier')"
+  label-for="input-1"
+  >
+  <b-form-input v-model="dataPerson.lastName"  type="text"></b-form-input>
+  
+  
+  </b-form-group>
+  
+  
+  <br>
+  
+  <b-form-group
+           class="col-md-4 mb-30"
+           :label="$t('Grade officier')"
+           label-for="input-1"
+         >
+           <b-form-select v-model="data.idGrade">
+             <option
+               v-for="option in respdata.gradeResp"
+               :value="option.id"
+               :key="option.id"
+             >{{ option.value }}</option>
+           </b-form-select>
+         </b-form-group>
+  
+  
+  
+  
+  
+  <b-form-group class="col-md-12" :label="$t('Unité')" label-for="input-1">
+  
+  <div>
+    <v-select
+    v-model="data.unite"
+    :options="Organs"
+    label="name"
+    placeholder="Recherché..."
+    @search="handleSearchOrganisation"
+    no-options="Aucun trouvé"
+   
+  >
+  </v-select>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  </b-form-group> -->
+
+            <!--   
+  <select v-model="dataFinalPersonne.drivingLicenceYear" class="form-control">
+    <option v-for="year in getYears()" :key="year" :value="year">{{ year }}</option>
+  </select>
+   -->
+
+            <b-form-group
+              class="col-md-12"
+              :label="$t('Unité')"
+              label-for="input-1"
+            >
+              <div>
+                <v-select
+                  v-model="data.unite"
+                  :options="Organs"
+                  label="name"
+                  :placeholder="$t('Recherché unité en écrivant...')"
+                  @search="handleSearchOrganisation"
+                  :no-options="$t('Aucun trouvé')"
+                >
+                </v-select>
+              </div>
+            </b-form-group>
+
+            <br />
+            <br />
+
+            <div class="container-fluid pt-2">
+              <!-- Liste des formulaires -->
+
+              <div
+                v-for="(officer, index) in officers"
+                :key="index"
+                class="row mb-4"
+              >
+                <div class="col-md-12">
+                  <div class="card shadow-sm">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="mb-0">
+                        {{ $t("Agent constatateur") }} {{ index + 1 }}
+                        <span
+                          v-if="index + 1 == 1"
+                          style="color: red; font-size: 12px"
+                        >
+                          ***{{ $t("principal") }}***</span
+                        >
+                      </h5>
+
+                      <div class="btn-group">
+                        <!-- Bouton Ajouter -->
+                        <button
+                          v-if="index === officers.length - 1"
+                          class="btn btn-primary btn-sm"
+                          @click="addOfficerForm"
+                        >
+                          <i class="fa fa-plus"></i> Agent
+                        </button>
+
+                        <!-- Bouton Retirer -->
+                        <button
+                          v-if="officers.length > 1"
+                          class="btn btn-danger btn-sm"
+                          @click="removeOfficerForm(index)"
+                        >
+                          <i class="fa fa-trash"></i> {{ $t("Retirer") }}
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+
+
+                      <div class="row">
+  <!-- Champ NOM -->
+  <b-form-group
+    class="col-md-4"
+    :label="$t('Nom officier')"
+    label-for="input-firstname"
+  >
+    <b-form-input
+      id="input-firstname"
+      v-model="officer.firstName"
+@input="searchOfficer(index)"
+      type="text"
+      :placeholder="$t('Nom')"
+    />
+  </b-form-group>
+
+  <!-- Champ PRÉNOM -->
+  <b-form-group
+    class="col-md-4"
+    :label="$t('Prénom officier')"
+    label-for="input-lastname"
+  >
+    <b-form-input
+      id="input-lastname"
+      v-model="officer.lastName"
+  
+      type="text"
+      :placeholder="$t('Prénom')"
+    />
+  </b-form-group>
+
+  <!-- Grade -->
+  <b-form-group
+    class="col-md-4"
+    :label="$t('Grade officier')"
+    label-for="input-grade"
+  >
+    <b-form-select
+      id="input-grade"
+      v-model="officer.idGrade"
+    >
+      <option
+        v-for="option in respdata.gradeResp"
+        :key="option.id"
+        :value="option.id"
+      >
+        {{ option.value }}
+      </option>
+    </b-form-select>
+  </b-form-group>
+
+  <!-- Suggestions -->
+
+<div class="col-12" v-if="suggestions[index] && suggestions[index].length">
+  <b-list-group-item
+    v-for="(person, idx) in suggestions[index]"
+    :key="idx"
+    @click="selectOfficer(person, index)"
+    class="suggestion-item"
+  >
+    {{ person.firstName }} {{ person.lastName }}
+  </b-list-group-item>
+</div>
+
+</div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <b-form-group
+  class="col-md-4"
+  :label="$t('Service')"
+  label-for="input-1"
+  >
+  <b-form-input v-model="data.serviceOfficier"  type="text"></b-form-input>
+  
+  
+  </b-form-group> -->
+          </b-row>
+        </div>
+
+        <!-- Étape 2 -->
+
+        <div v-if="currentStep === 2">
+          <div class="row">
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Région')"
+              label-for="input-1"
+            >
+              <div>
+                <v-select
+                  v-model="localitions.selectedRegion"
+                  :options="Regions"
+                  label="name"
+                  :placeholder="$t('Sélectionnez une région')"
+                >
+                </v-select>
+              </div>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Département')"
+              label-for="input-1"
+            >
+              <div>
+                <v-select
+                  v-model="localitions.departement"
+                  :options="Departements"
+                  label="name"
+                  :placeholder="$t('Saisir le département recherché')"
+                  @search="
+                    (searchText) => handleSearch('departments', searchText)
+                  "
+                  :no-options="$t('Aucun département trouvé')"
+                >
+                </v-select>
+              </div>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Ville')"
+              label-for="input-1"
+            >
+              <div>
+                <v-select
+                  v-model="localitions.city"
+                  :options="Cities"
+                  label="name"
+                  :placeholder="$t('Saisir la ville recherchée')"
+                  @search="(searchText) => handleSearch('cities', searchText)"
+                  :no-options="$t('Aucun résultat')"
+                >
+                </v-select>
+              </div>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Municipalitée')"
+              label-for="input-1"
+            >
+              <v-select
+                v-model="localitions.municipality"
+                :options="Municipalities"
+                label="name"
+                :placeholder="$t('Écrire et recherchez')"
+                @search="
+                  (searchText) => handleSearch('municipalities', searchText)
+                "
+                :no-options="$t('Aucun résultat')"
+              >
+              </v-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Quartier')"
+              label-for="input-1"
+            >
+              <v-select
+                v-model="localitions.quater"
+                :options="Quaters"
+                label="name"
+                :placeholder="$t('Écrire et recherchez')"
+                @search="(searchText) => handleSearch('qaurters', searchText)"
+                :no-options="$t('Aucun résultat')"
+              >
+              </v-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Lieu dit')"
+              label-for="input-1"
+            >
+              <b-form-input
+                v-model="localitions.place"
+                type="text"
+              ></b-form-input>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Latitude')"
+              label-for="input-1"
+            >
+              <b-form-input
+                v-model="localitions.latitude"
+                type="text"
+              ></b-form-input>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Longititude')"
+              label-for="input-1"
+            >
+              <b-form-input
+                v-model="localitions.longitude"
+                type="text"
+              ></b-form-input>
+            </b-form-group>
+
+            <b-card-body
+              style="display: flex; flex-direction: column; height: 1000px"
+            >
+              <div class="foobar1 pt-5">
+                <l-map
+                  ref="myMap"
+                  :zoom="zoom"
+                  :center="center"
+                  @click="addMarker"
+                >
+                  <l-tile-layer
+                    :url="url"
+                    :attribution="attribution"
+                  ></l-tile-layer>
+                  <l-marker
+                    v-for="(marker, index) in markerLatLng"
+                    :lat-lng="marker"
+                    :key="marker"
+                    @click="removeMarker(index)"
+                  ></l-marker>
+                </l-map>
+              </div>
+            </b-card-body>
+
+            <!-- <div class="foobar1 pt-5">
+                <l-map ref="myMap" :zoom="zoom" :center="center" @click="addMarker">
+                  <l-tile-layer :url="f" :attribution="attribution"></l-tile-layer>
+                  <l-marker
+                    v-for="(marker, index) in markerLatLng"
+                    :lat-lng="marker"
+                    :key="marker"
+                    @click="removeMarker(index)"
+                  ></l-marker>
+                </l-map>
+              </div> -->
+          </div>
+        </div>
+
+        <!-- Étape 2 -->
+        <div v-if="currentStep === 3">
+          <div>
+            <b-row>
+              <b-form-group
+                class="col-md-12"
+                :label="$t('Enrerister toutes les images')"
+                label-for="input-1"
+              >
+                <div class="col-md-12">
+                  <vue-upload-multiple-image
+                    :key="uploadComponentKey"
+                    class="w-100"
+                    style="min-height: 200px"
+                    :dragText="
+                      $t(
+                        'Ajouter les Photos du véhicule ou des lieux de l’accident)'
+                      )
+                    "
+                    browseText
+                    primaryText
+                    dropText
+                    @before-remove="fileRemoved"
+                    @upload-success="fileAdded"
+                    :data-images="images"
+                    idUpload="myIdUpload1"
+                  />
+                </div>
+
+                <!-- <vue-upload-multiple-image dragText="Importer le cr" browseText primaryText dropText
+              @before-remove="fileRemovedVehicles" @upload-success="fileAdded"
+              idUpload="myIdUpload1"></vue-upload-multiple-image> -->
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Date de Accident')"
+                label-for="input-1"
+              >
+                <input
+                  v-model="data.accidentDate"
+                  type="date"
+                  class="form-control"
+                />
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Heure Accident')"
+                label-for="input-1"
+              >
+                <input
+                  type="time"
+                  v-model="data.accidentTime"
+                  class="form-control"
+                />
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Cause Accident')"
+                label-for="input-1"
+              >
+                <!-- Afficher les éléments sélectionnés -->
+                <div
+                  v-if="data.causes && data.causes.length > 0"
+                  class="selected-causes mb-2"
+                >
+                  <span
+                    v-for="(cause, index) in data.causes"
+                    :key="index"
+                    class="badge badge-primary mr-1"
+                  >
+                    {{ cause.name }}
+                  </span>
+                </div>
+
+                <!-- Composant multi-select -->
+                <vue-multi-select
+                  v-model="data.causes"
+                  search
+                  historyButton
+                  :filters="filters"
+                  :options="options"
+                  :selectOptions="respdata.directCauseResp"
+                >
+                  <template v-slot:option="{ option }">
+                    <span>{{ option.name }}</span>
+                  </template>
+                </vue-multi-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Cathégorie Accident')"
+                label-for="input-1"
+              >
+                <b-form-select v-model="data.accidentType">
+                  <option
+                    v-for="option in respdata.accidentTypeResp"
+                    :value="option.id"
+                    :key="option.id"
+                    required
+                  >
+                    {{ option.value }}
+                  </option>
+                </b-form-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Type Accident')"
+                label-for="input-1"
+              >
+                <b-form-select v-model="data.accidentSeverity">
+                  <option
+                    v-for="option in respdata.accidentSeverityResp"
+                    :value="option.id"
+                    :key="option.id"
+                  >
+                    {{ option.value }}
+                  </option>
+                </b-form-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Conditions de luminosité')"
+                label-for="input-1"
+              >
+                <b-form-select v-model="data.brightnessCondition">
+                  <option
+                    v-for="option in respdata.brightnessConditionResp"
+                    :value="option.id"
+                    :key="option.id"
+                  >
+                    {{ option.value }}
+                  </option>
+                </b-form-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Conditions climatiques')"
+                label-for="input-1"
+              >
+                <b-form-select v-model="data.climaticCondition">
+                  <option
+                    v-for="option in respdata.climaticConditionResp"
+                    :value="option.id"
+                    :key="option.id"
+                  >
+                    {{ option.value }}
+                  </option>
+                </b-form-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Nombre de morts')"
+                label-for="input-1"
+              >
+                <b-form-input
+                  v-model="data.numberOfDeaths"
+                  :placeholder="$t('Nombre de morts')"
+                  type="text"
+                  :disabled="data.accidentSeverity !== 1"
+                ></b-form-input>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Nombre de bléssés')"
+                label-for="input-1"
+              >
+                <input
+                  v-model="data.numberOfwound"
+                  type="number"
+                  class="form-control"
+                />
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Type de jour')"
+                label-for="input-1"
+              >
+                <b-form-group label-for="">
+                  <b-form-select v-model="data.selecteddayType">
+                    <option value="weekend">{{ $t("Week-end") }}</option>
+                    <option value="holiday">{{ $t("Jour de fête") }}</option>
+                    <option value="eve">{{ $t("Veille de fête") }}</option>
+                    <option value="market-day">
+                      {{ $t("Jour de marché") }}
+                    </option>
+                    <option value="ordinary-day">
+                      {{ $t("Jour ordinaire") }}
+                    </option>
+                  </b-form-select>
+                </b-form-group>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                label-for="input-1"
+                :label="$t('Sélectionnez un jour de la semaine')"
+              >
+                <b-form-select
+                  id="weekday-select"
+                  v-model="data.selectedWeekday"
+                >
+                  <option value="lundi">{{ $t("Lundi") }}</option>
+                  <option value="mardi">{{ $t("Mardi") }}</option>
+                  <option value="mercredi">{{ $t("Mercredi") }}</option>
+                  <option value="jeudi">{{ $t("Jeudi") }}</option>
+                  <option value="vendredi">{{ $t("Vendredi") }}</option>
+                  <option value="samedi">{{ $t("Samedi") }}</option>
+                  <option value="dimanche">{{ $t("Dimanche") }}</option>
+                </b-form-select>
+              </b-form-group>
+
+              <b-form-group
+                class="col-md-3"
+                :label="$t('Type Impact')"
+                label-for="input-1"
+              >
+                <div
+                  v-if="data.impactTypes && data.impactTypes.length > 0"
+                  class="selected-causes mb-2"
+                >
+                  <span
+                    v-for="(impactType, index) in data.impactTypes"
+                    :key="index"
+                    class="badge badge-primary mr-1"
+                  >
+                    {{ impactType.value }}
+                  </span>
+                </div>
+
+                <vue-multi-select
+                  v-model="data.impactTypes"
+                  search
+                  historyButton
+                  :filters="filters"
+                  :options="options"
+                  :selectOptions="respdata.impactTypeResp"
+                >
+                  <template v-slot:option="{ option }">
+                    <span>{{ option.value }}</span>
+                  </template>
+                </vue-multi-select>
+              </b-form-group>
+            </b-row>
+          </div>
+        </div>
+
+        <!-- Étape 3 -->
+        <div v-if="currentStep === 4">
+          <b-row>
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Intersection')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadIntersection">
+                <option
+                  v-for="option in respdata.roadIntersectionResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('type de Route')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadType">
+                <option
+                  v-for="option in respdata.roadTypeResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select></b-form-group
+            >
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Régime de circulation')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idRegimeCirculation">
+                <option
+                  v-for="option in respdata.regimeCirculationResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Etat de la surface de la route')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadState">
+                <option
+                  v-for="option in respdata.roadStateResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Régime de priorité')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadTrafficControl">
+                <option
+                  v-for="option in respdata.roadTrafficControl"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Facteur lié aux lieux')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idFacteurLieu">
+                <option
+                  v-for="option in respdata.facteurLieuResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Signalisation par zone')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idSignalisationZone">
+                <option
+                  v-for="option in respdata.signalisationZoneResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Aménagement routier')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idAmenagementRoutier">
+                <option
+                  v-for="option in respdata.amenagementRoutierResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Categorie de Route')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadCategory">
+                <option
+                  v-for="option in respdata.roadCategoryResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.name }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <!-- <b-form-group class="col-md-4 mb-30" :label="$t('Carrefour')" label-for="input-1">
+                <b-form-select v-model="data.roadIntersection">
+              
+                  <option
+                    v-for="option in respdata.roadIntersectionResp"
+                    :value="option.id"
+                    :key="option.id"
+                  >{{ option.value }}</option>
+                </b-form-select>
+             
+              </b-form-group> -->
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Profil Longitudinal')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idProfileLongitudinal">
+                <option
+                  v-for="option in respdata.profileLongitudinalResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Type de voie')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.idTypeVoie">
+                <option
+                  v-for="option in respdata.typeVoieResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('virage')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.virage">
+                <option
+                  v-for="option in respdata.virageResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Route avec pente ?')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.roadSlopSection">
+                <option
+                  v-for="option in respdata.roadSlopSectionResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Obstacles routiers sur la voie')"
+              label-for="input-1"
+            >
+              <b-form-select v-model="data.block">
+                <option
+                  v-for="option in respdata.blockResp"
+                  :value="option.id"
+                  :key="option.id"
+                >
+                  {{ option.value }}
+                </option>
+              </b-form-select>
+            </b-form-group>
+
+            <!-- <b-form-group
+                class="col-md-4 mb-30"
+                :label="$t('Intensité du trafic')"
+                label-for="input-1"
+              >
+                <b-form-select v-model="data.block">
+            
+                  <option
+                    v-for="option in respdata.blockResp000"
+                    :value="option.id"
+                    :key="option.id"
+                  >{{ option.value }}</option>
+                </b-form-select>
+              </b-form-group> -->
+
+            <b-form-group
+              class="col-md-3"
+              :label="$t('Vitesse max sur cette voie')"
+              label-for="input-1"
+            >
+              <b-form-input
+                v-model="data.speedLimit"
+                type="text"
+              ></b-form-input>
+            </b-form-group>
+          </b-row>
+        </div>
+
+        <!-- Étape 4 -->
+        <div v-if="currentStep === 5">
+          <b-overlay>
+            <b-card-body v-if="seen == true">
+              <div class="row">
+                <div class="col-11"></div>
+
+                <div class="col-1 pb-5">
+                  <b-button
+                    @click="addvehicules()"
+                    class="pull-right btn round btn-icon rounded-circle m-1"
+                    variant="primary"
+                  >
+                    <span class="ul-btn__icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </b-button>
+  
+                </div>
+
+
+                
+              </div>
+
+              <div class="row">
+                <b-col md="12">
+                  <div class="container-fluid">
+                    <table
+                      class="table table-bordered table-hover table-striped shadow-sm"
+                    >
+                      <!-- En-tête du tableau -->
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">#</th>
+                          <!-- <th scope="col">PHOTO</th> -->
+                          <th scope="col">{{ $t("Immatriculation") }}</th>
+                          <th scope="col">{{ $t("Chassis") }}</th>
+                          <th scope="col">{{ $t("Nombre de place") }}</th>
+                          <!-- <th scope="col">Marque</th> -->
+                          <th scope="col">{{ $t("Visite Technique") }}</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <!-- Corps du tableau -->
+                      <tbody>
+                        <tr
+                          v-for="(vehicule, index) in Cars"
+                          :key="vehicule.id"
+                        >
+                          <th scope="row">{{ index + 1 }}</th>
+                          <!-- <td>
+  <img
+  v-if="vehicule.vehicleImagePaths && vehicule.vehicleImagePaths.length > 0"
+  :src="`${urlPaths}${vehicule.vehicleImagePaths[0]}`"
+  alt="Image"
+  style="width: 30px; height: 30px"
+  />
+  </td> -->
+
+                          <td>{{ vehicule.plateNumber }}</td>
+                          <td>
+                            {{
+                              vehicule.vehicle ? vehicule.vehicle.chassis : ""
+                            }}
+                          </td>
+                          <td>
+                            {{
+                              vehicule.vehicle ? vehicule.vehicle.nbrplace : ""
+                            }}
+                          </td>
+                          <td>
+                            {{
+                              vehicule.vehicle && vehicule.vehicle.validVisit
+                                ? "Oui"
+                                : "Non"
+                            }}
+                          </td>
+
+                          <td class="text-center">
+                            <!-- <i
+  class="fa fa-eye text-primary mr-3"
+  style="cursor: pointer;"
+  @click="viewVehicule(vehicule)"
+  title="Voir"
+  ></i> -->
+                            <i
+                              class="fa fa-pencil-alt text-warning mr-3"
+                              style="cursor: pointer"
+                              @click="editvehicule(vehicule)"
+                              title="Éditer"
+                            ></i>
+                            <i
+                              class="fa fa-trash text-danger mr-3"
+                              style="cursor: pointer"
+                              @click="deleteVehicule(vehicule)"
+                              title="Supprimer"
+                            ></i>
+                            <i
+                              class="fa fa-regular fa-folder-open"
+                              style="cursor: pointer"
+                              @click="addDocuments(vehicule)"
+                              title="Ajouter des documents"
+                            ></i>
+                          </td>
+                        </tr>
+                        <!-- Message si aucun véhicule -->
+                        <tr v-if="Cars.length == 0">
+                          <td colspan="9" class="text-center text-primary">
+                            {{ $t("Aucun véhicule enregistré") }}
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </b-col>
+              </div>
+            </b-card-body>
+
+            <b-card-body v-if="seen == false">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-10">
+                    <p>Document véhicule</p>
+                  </div>
+
+                  <div
+                    class="col-md-2 d-flex justify-content-end align-items-center"
+                  >
+                    <b-button
+                      @click="EndDocumentModal()"
+                      class="btn-add m-1"
+                      variant="warning"
+                    >
+                      <span class="ul-btn__icon">
+                        <i class="fa-solid fa-left-long icon-action"></i>
+                      </span>
+                    </b-button>
+
+                    <b-button
+                      @click="showModalDocumentVehicule()"
+                      class="btn-add m-1"
+                      variant="primary"
+                    >
+                      <span class="ul-btn__icon">
+                        <i class="fa-solid fa-plus icon-action"></i>
+                      </span>
+                    </b-button>
+                  </div>
+                </div>
+
+
+
+                
+                    <br> 
+
+                  
+    <table class="table table-bordered table-hover table-striped shadow-sm">
+      <!-- En-tête du tableau -->
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Propriétaire</th>
+          <th scope="col">Type de document</th>
+          <th scope="col">Identification</th>
+          <th scope="col">Délivrance</th>
+          <th scope="col">Expériration</th>
+          <th scope="col"></th>
+          <!-- <th scope="col">Propriétaire</th> -->
         
-        .redirect-container {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 90%;
-        }
         
-        .logo {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 1.1em;
-        }
-        
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 20px auto;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .redirect-message {
-            color: #555;
-            font-size: 1em;
-            margin-top: 20px;
-        }
-        
-        .manual-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #667eea;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background-color 0.3s ease;
-        }
-        
-        .manual-link:hover {
-            background-color: #5a67d8;
-        }
-    </style>
-<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fartteleco4172back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
-</head>
-<body>
-    <div class="redirect-container">
-        <div class="logo">ART Telecom</div>
-        <div class="subtitle">Titles Manager</div>
-        <div class="loading-spinner"></div>
-        <div class="redirect-message">Redirecting to login...</div>
-        <a href="pages/login_authentication.html" class="manual-link">Continue to Login</a>
+        </tr>
+      </thead>
+      <!-- Corps du tableau -->
+      <tbody>
+        <tr  v-for="(document) in DocumentVehicules" :key="document.id">
+         <td>
+  {{ document.person ? document.person.firstName : '' }} {{ document.person ? document.person.lastName : '' }}
+</td>
+<td>
+  <span class="badge-primary-custom">
+    {{ document.type ? document.type.name : '' }}
+  </span>
+</td>
+<td>{{ document.identification }}</td>
+<td>{{ document.issueDate }}</td>
+<td>{{ document.expireAt }}</td>
+
+          <td>  <i
+class="fa fa-pencil-alt icon-action edit mr-3"
+@click="editvehiculeDocument(document)"
+title="Éditer"
+></i>
+
+<i
+class="fa fa-trash icon-action delete mr-3"
+@click="deletevehiculeDocument(document)"
+title="Supprimer"
+></i></td>
+       
+        </tr>
+        <!-- Message si aucun véhicule -->
+        <tr v-if="DocumentVehicules.length === 0">
+          <td colspan="9" class="text-center text-primary">
+            {{ $t("Aucun document du véhicule enregistré.") }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+              </div>
+            </b-card-body>
+          </b-overlay>
+        </div>
+
+        <!-- Étape 5 -->
+        <div v-if="currentStep === 6">
+          <div class="row">
+            <div class="col-11"></div>
+
+            <div class="col-1 pb-5">
+              <b-button
+                @click="addperson()"
+                class="pull-right btn round btn-icon rounded-circle m-1"
+                variant="primary"
+              >
+                <span class="ul-btn__icon">
+                  <i class="fa-solid fa-plus"></i>
+                </span>
+              </b-button>
+
+          
+            </div>
+          </div>
+
+          <div class="row">
+            <b-col md="12">
+              <div class="container-fluid">
+                <table
+                  class="table table-bordered table-hover table-striped shadow-sm"
+                >
+                  <!-- En-tête du tableau -->
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">#</th>
+                      <!-- <th scope="col">{{ $t('PHOTO') }}</th> -->
+                      <th scope="col">{{ $t("Noms") }}</th>
+                      <th scope="col">{{ $t("Genre") }}</th>
+                      <th scope="col">{{ $t("Role") }}</th>
+                      <th scope="col">{{ $t("Actions") }}</th>
+                    </tr>
+                  </thead>
+                  <!-- Corps du tableau -->
+                  <tbody>
+                    <tr
+                      v-for="(personne, index) in RegionsPersonnes"
+                      :key="personne.id"
+                    >
+                      <th scope="row">{{ index + 1 }}</th>
+                      <td v-if="personne && personne.person">
+                        {{ personne.person.firstName }}
+                        {{ personne.person.lastName }}
+                      </td>
+                      <td v-else></td>
+
+                      <td
+                        v-if="
+                          personne && personne.person && personne.person.gender
+                        "
+                      >
+                        {{ personne.person.gender.value }}
+                      </td>
+                      <td v-else></td>
+
+                      <td v-if="personne && personne.personroadType">
+                        {{ personne.personroadType.value }}
+                      </td>
+                      <td v-else></td>
+
+                      <td class="text-center">
+                        <i
+                          class="fa fa-pencil-alt text-warning mr-3"
+                          style="cursor: pointer"
+                          @click="editpersonne(personne)"
+                          :title="$t('Éditer')"
+                        ></i>
+                        <i
+                          class="fa fa-trash text-danger mr-3"
+                          style="cursor: pointer"
+                          @click="deletePersonne(personne)"
+                          :title="$t('Supprimer')"
+                        ></i>
+                        <!-- <i
+  class="fa fa-regular fa-folder-open"
+  style="cursor: pointer;"
+  @click="addDocuments(vehicule)"
+  title="Ajouter des documents"
+  ></i> -->
+                      </td>
+                    </tr>
+                    <!-- Message si aucun véhicule -->
+                    <tr v-if="RegionsPersonnes.length == 0">
+                      <td colspan="9" class="text-center text-primary">
+                        Aucune personne enregistré.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </b-col>
+          </div>
+        </div>
+
+        <!-- Étape 7 -->
+        <div v-if="currentStep === 7">
+  <div class="container">
+    
+    <!-- Ligne des boutons -->
+    <div class="row justify-content-center text-center g-4 mb-3">
+      <!-- Bouton Dessiner -->
+      <div class="col-md-3 d-flex justify-content-center">
+        <button class="btn btn-outline-primary w-100" @click="draw">
+          <i class="fas fa-pencil-alt"></i> {{ $t("Dessiner") }}
+        </button>
+      </div>
+
+      <!-- Bouton Importer -->
+      <div class="col-md-3 d-flex justify-content-center">
+        <label for="uploadCroquis" class="btn btn-outline-danger w-100 d-flex align-items-center justify-content-center">
+          <i class="fas fa-upload mr-2"></i> {{ $t("Importer") }}
+        </label>
+        <input
+          type="file"
+          id="uploadCroquis"
+          accept="image/*"
+          @change="handleCroquisUpload"
+          style="display: none;"
+        />
+      </div>
+
+      <!-- Bouton Effacer -->
+      <div class="col-md-3 d-flex justify-content-center">
+        <button class="btn btn-outline-secondary w-100" @click="clearCroquis">
+          <i class="fas fa-trash-alt mr-2"></i> {{ $t("Tout effacer") }}
+        </button>
+      </div>
     </div>
 
-    <script>
-        // Auto-redirect to login page after 2 seconds
-        setTimeout(function() {
-            window.location.href = 'pages/login_authentication.html';
-        }, 2000);
-        
-        // Fallback redirect on page load
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
-                    window.location.href = 'pages/login_authentication.html';
-                }
-            }, 3000);
-        });
-    </script>
-<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
-</body>
-</html>
+    <!-- Ligne de l’image en dessous -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 d-flex flex-column align-items-center">
+        <div class="border rounded p-2 bg-light w-100 d-flex justify-content-center align-items-center" style="height: 230px;">
+          <img
+            v-if="url_croquis"
+            :src="url_croquis"
+            alt="Croquis de l'accident"
+            class="img-fluid rounded shadow-sm"
+            style="max-height: 200px; object-fit: contain;"
+          />
+          <span v-else class="text-muted">{{ $t("Aucun croquis") }}</span>
+        </div>
+        <small class="text-muted mt-2 text-center">
+          {{ url_croquis ? $t("Croquis actuel") : "" }}
+        </small>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+        <!-- Étape 8 -->
+        <div v-if="currentStep === 8">
+
+
+
+          <b-row>
+    <b-form-group class="col-md-6" :label="$t('Observations sur l’accident')">
+      <b-form-textarea v-model="datasRequest.observations" rows="10" />
+    </b-form-group>
+    <b-form-group class="col-md-6" :label="$t('Remarques  globale sur l’accident')">
+      <b-form-textarea v-model="datasRequest.remarques" rows="10" />
+    </b-form-group>
+  </b-row>
+            
+       
+          
+       
+
+          
+        </div>
+<div v-if="currentStep === 9" class="container mt-4">
+  <!-- Bouton Ajouter une Déposition centré -->
+  <div class="text-center mb-4">
+    <button
+      class="btn btn-outline-primary btn-sm rounded-pill px-4 py-2 shadow-sm"
+      @click="openDepositionModal()"
+    >
+      <i class="fa fa-plus mr-2"></i> {{ $t('déposition') }}
+    </button>
+  </div>
+
+  <!-- Aucune déposition -->
+  <div v-if="depositions.length === 0" class="text-center text-muted my-4">
+    Aucune déposition
+  </div>
+
+  <!-- Liste des dépositions -->
+   <template v-else>
+  
+    <b-col
+  v-for="(depo, index) in depositions"
+  :key="depo.id"
+  cols="12"
+  md="12"
+  class="mb-4"
+>
+  <b-card class="h-100 shadow-sm">
+    <template #header>
+      <div class="d-flex justify-content-between align-items-center">
+        <strong>Déposition {{ index + 1 }} faite le {{ formatDate(depo.dateEntretien) }}</strong>
+        <div>
+          <b-button
+            size="sm"
+            variant="outline-primary"
+            class="mr-2"
+            @click="editDeposition(depo)"
+            title="Modifier"
+          >
+            Modifier
+          </b-button>
+          <b-button
+            size="sm"
+            variant="outline-danger"
+            @click="deleteDeposition(depo.id)"
+            title="Supprimer"
+          >
+            Supprimer
+          </b-button>
+        </div>
+      </div>
+    </template>
+
+    <b-card-body>
+      <b-row>
+        <b-col cols="4">
+          <p class="mb-1"><strong>Lieu :</strong> {{ depo.lieuEntretien }}</p>
+        </b-col>
+        <b-col cols="4">
+          <p class="mb-1"><strong>CNI :</strong> {{ depo.person.cni }}</p>
+        </b-col>
+        <b-col cols="4">
+          <p class="mb-1"><strong>Tél :</strong> {{ depo.person.tel1 }}</p>
+        </b-col>
+        <b-col cols="4">
+          <p class="mb-1"><strong>Nom :</strong> {{ depo.person.lastName }}</p>
+        </b-col>
+        <b-col cols="4">
+          <p class="mb-1"><strong>Prénom :</strong> {{ depo.person.firstName }}</p>
+        </b-col>
+        <b-col cols="4">
+          <p class="mb-1"><strong>Naissance :</strong> {{ formatDate(depo.person.birthDate) }}</p>
+        </b-col>
+      </b-row>
+
+      <b-button
+        variant="outline-primary"
+        size="sm"
+        class="mt-3"
+        @click="toggleDetails(depo.id)"
+      >
+        {{ showDetails[depo.id] ? 'Cacher' : 'Voir' }} les questions/réponses
+      </b-button>
+
+      <div v-if="showDetails[depo.id]" class="mt-3">
+        <div
+          v-for="(qr, qIndex) in depo.questionReponses"
+          :key="qIndex"
+          class="mb-3 p-3 rounded"
+          style="background-color: #f9f9f9; border-left: 4px solid #007bff;"
+        >
+          <p class="mb-1 text-primary"><strong>Question {{ qIndex + 1 }} :</strong> {{ qr.question }}</p>
+          <p class="mb-0 text-dark"><strong>Réponse {{ qIndex + 1 }} :</strong> {{ qr.reponse }}</p>
+        </div>
+      </div>
+    </b-card-body>
+  </b-card>
+</b-col>
+
+
+
+
+  </template>
+  
+</div>
+
+
+        <!-- Boutons de navigation -->
+        <div class="mt-4 d-flex justify-content-between">
+          <b-button variant="outline-secondary" @click="prevStep">
+            {{ $t("Retour") }}
+          </b-button>
+          <b-button
+            :variant="
+              currentStep === stepTitles.length ? $t('success') : $t('primary')
+            "
+            @click="nextStep"
+          >
+            {{
+              currentStep === stepTitles.length ? $t("Terminer") : $t("Suivant")
+            }}
+          </b-button>
+        </div>
+      </b-card>

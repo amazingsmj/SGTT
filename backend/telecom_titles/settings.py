@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'titres',
     'demandes',
     'core',
+    'api_integration',
 
     # Autres 
     'rest_framework',

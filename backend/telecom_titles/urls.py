@@ -19,5 +19,20 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/users/', include('users.urls')),
+    
+    # API endpoints
+    path('api/auth/', include('users.urls')),
+    path('api/titres/', include('titres.urls')),
+    path('api/demandes/', include('demandes.urls')),
+    path('api/reporting/', include('reporting.urls')),
+    path('api/notifications/', include('notifications.urls')),
+    path('api/system/', include('system_admin.urls')),
+    path('api/integration/', include('api_integration.urls')),
 ]
+
+# Servir les fichiers média en développement
+from django.conf import settings
+from django.conf.urls.static import static
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

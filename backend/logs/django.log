@@ -1,0 +1,2223 @@
+INFO 2025-08-13 14:48:42,430 autoreload 1518816 131238410447744 Watching for file changes with StatReloader
+INFO 2025-08-13 14:49:20,618 autoreload 1518816 131238410447744 /home/prooftag-catis/Bureau/Mig/backend/telecom_titles/settings.py changed, reloading.
+INFO 2025-08-13 14:49:21,273 autoreload 1519540 134411440688000 Watching for file changes with StatReloader
+INFO 2025-08-13 14:49:26,423 autoreload 1519725 138787154606976 Watching for file changes with StatReloader
+INFO 2025-08-13 14:50:57,014 autoreload 1519725 138787154606976 /home/prooftag-catis/Bureau/Mig/backend/telecom_titles/settings.py changed, reloading.
+INFO 2025-08-13 14:50:57,667 autoreload 1521234 132177298660224 Watching for file changes with StatReloader
+INFO 2025-08-13 14:51:12,894 autoreload 1521638 128284668480384 Watching for file changes with StatReloader
+INFO 2025-08-13 14:51:18,858 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 14:51:18,914 basehttp 1521638 128284585096768 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-08-13 14:51:48,549 basehttp 1521638 128284585096768 "GET /admin/users/user/ HTTP/1.1" 200 21727
+INFO 2025-08-13 14:51:48,623 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 14:51:48,626 basehttp 1521638 128284499113536 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2025-08-13 14:51:48,703 log 1521638 128284499113536 Not Found: /favicon.ico
+INFO 2025-08-13 14:51:59,157 basehttp 1521638 128284585096768 "GET /admin/users/user/ HTTP/1.1" 200 21727
+INFO 2025-08-13 14:51:59,209 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 14:51:59,283 log 1521638 128284499113536 Not Found: /favicon.ico
+INFO 2025-08-13 14:52:01,499 basehttp 1521638 128284585096768 "POST /admin/logout/ HTTP/1.1" 200 3669
+INFO 2025-08-13 14:52:03,846 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 14:52:03,864 basehttp 1521638 128284585096768 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4274
+INFO 2025-08-13 14:52:03,956 basehttp 1521638 128284585096768 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-08-13 14:52:06,514 basehttp 1521638 128284585096768 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4522
+INFO 2025-08-13 14:52:28,488 basehttp 1521638 128284585096768 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4546
+INFO 2025-08-13 14:52:37,766 basehttp 1521638 128284585096768 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 14:52:37,820 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 14:52:58,618 basehttp 1521638 128284585096768 "POST /admin/logout/ HTTP/1.1" 200 3669
+INFO 2025-08-13 14:53:06,542 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 14:53:06,556 basehttp 1521638 128284585096768 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4274
+INFO 2025-08-13 14:53:32,818 basehttp 1521638 128284585096768 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 14:53:32,936 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 14:53:56,170 basehttp 1521638 128284585096768 "GET /admin/reporting/auditlog/ HTTP/1.1" 200 16526
+INFO 2025-08-13 14:53:56,310 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 14:53:56,445 log 1521638 128284585096768 Not Found: /favicon.ico
+INFO 2025-08-13 14:54:00,009 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+WARNING 2025-08-13 14:54:00,174 log 1521638 128284585096768 Not Found: /favicon.ico
+INFO 2025-08-13 14:54:02,747 basehttp 1521638 128284585096768 "GET /admin/reporting/auditlog/add/ HTTP/1.1" 200 21606
+INFO 2025-08-13 14:54:02,870 basehttp 1521638 128284482328128 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-08-13 14:54:02,871 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 14:54:18,127 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 14:54:22,416 basehttp 1521638 128284585096768 "GET /admin/reporting/report/add/ HTTP/1.1" 200 20790
+INFO 2025-08-13 14:54:22,539 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 14:54:22,719 log 1521638 128284585096768 Not Found: /favicon.ico
+INFO 2025-08-13 14:54:39,014 basehttp 1521638 128284585096768 "GET /admin/users/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 16537
+INFO 2025-08-13 14:54:39,226 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 14:54:39,231 basehttp 1521638 128284499113536 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-08-13 14:54:39,239 basehttp 1521638 128284499113536 "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+INFO 2025-08-13 14:54:39,248 basehttp 1521638 128284585096768 "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 304 0
+WARNING 2025-08-13 14:54:39,522 log 1521638 128284499113536 Not Found: /favicon.ico
+INFO 2025-08-13 14:54:39,523 basehttp 1521638 128284585096768 "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 537
+INFO 2025-08-13 14:54:49,609 basehttp 1521638 128284585096768 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 14:54:52,603 basehttp 1521638 128284585096768 "GET /admin/reporting/dashboard/add/ HTTP/1.1" 200 18428
+INFO 2025-08-13 14:54:52,742 basehttp 1521638 128284585096768 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 14:54:52,756 basehttp 1521638 128284499113536 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-08-13 14:54:52,756 basehttp 1521638 128284585096768 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+WARNING 2025-08-13 14:54:52,973 log 1521638 128284499113536 Not Found: /favicon.ico
+INFO 2025-08-13 14:55:02,868 basehttp 1521638 128284499113536 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:24,898 autoreload 1727250 137996136307584 Watching for file changes with StatReloader
+INFO 2025-08-13 18:19:30,813 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:30,875 basehttp 1727250 137996043019840 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-08-13 18:19:30,875 basehttp 1727250 137996034627136 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+WARNING 2025-08-13 18:19:30,977 log 1727250 137996043019840 Not Found: /favicon.ico
+INFO 2025-08-13 18:19:32,845 basehttp 1727250 137996034627136 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:34,127 basehttp 1727250 137996034627136 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:41,446 basehttp 1727250 137996034627136 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:43,944 basehttp 1727250 137996034627136 "POST /admin/logout/ HTTP/1.1" 200 3669
+INFO 2025-08-13 18:19:46,076 basehttp 1727250 137996034627136 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:19:46,119 basehttp 1727250 137996034627136 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4274
+INFO 2025-08-13 18:19:46,200 basehttp 1727250 137996034627136 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-08-13 18:19:49,960 basehttp 1727250 137996034627136 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:19:50,019 basehttp 1727250 137996034627136 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:19:56,187 basehttp 1727250 137996034627136 "GET /admin/demandes/commentairedemande/ HTTP/1.1" 200 16469
+INFO 2025-08-13 18:19:56,249 basehttp 1727250 137996034627136 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:19:56,321 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:19:58,707 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:20:00,570 basehttp 1727250 137996052461120 "GET /admin/demandes/demande/ HTTP/1.1" 200 17711
+INFO 2025-08-13 18:20:00,630 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:20:00,695 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:20:03,139 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+ERROR 2025-08-13 18:20:05,353 log 1727250 137996052461120 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 121, in days_since_submission
+    return (date.today() - self.date_soumission).days
+            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'NoneType'
+ERROR 2025-08-13 18:20:05,359 basehttp 1727250 137996052461120 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 613063
+INFO 2025-08-13 18:20:12,657 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+ERROR 2025-08-13 18:20:17,145 log 1727250 137996052461120 Internal Server Error: /admin/demandes/document/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Document has no field named 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 222, in taille_fichier_readable
+    if self.taille_fichier < 1024.0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+ERROR 2025-08-13 18:20:17,150 basehttp 1727250 137996052461120 "GET /admin/demandes/document/add/ HTTP/1.1" 500 618235
+INFO 2025-08-13 18:20:20,622 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:20:23,267 basehttp 1727250 137996052461120 "GET /admin/demandes/historiquedemande/add/ HTTP/1.1" 200 18899
+INFO 2025-08-13 18:20:23,330 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:20:27,952 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+WARNING 2025-08-13 18:20:28,039 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:20:31,104 basehttp 1727250 137996052461120 "GET /admin/demandes/commentairedemande/add/ HTTP/1.1" 200 20810
+INFO 2025-08-13 18:20:31,169 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:20:40,091 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+ERROR 2025-08-13 18:20:44,060 log 1727250 137996052461120 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 121, in days_since_submission
+    return (date.today() - self.date_soumission).days
+            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'NoneType'
+ERROR 2025-08-13 18:20:44,065 basehttp 1727250 137996052461120 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 613063
+INFO 2025-08-13 18:22:25,099 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:22:32,046 basehttp 1727250 137996052461120 "GET /admin/titres/titre/add/ HTTP/1.1" 200 27810
+INFO 2025-08-13 18:22:32,558 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:22:32,859 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:22:41,416 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+WARNING 2025-08-13 18:22:41,468 log 1727250 137996052461120 Not Found: /favicon.ico
+INFO 2025-08-13 18:22:46,016 basehttp 1727250 137996052461120 "GET /admin/reporting/report/add/ HTTP/1.1" 200 20790
+INFO 2025-08-13 18:22:46,083 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:22:46,167 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:22:52,312 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:22:56,440 basehttp 1727250 137996052461120 "GET /admin/reporting/dashboard/add/ HTTP/1.1" 200 18428
+INFO 2025-08-13 18:22:56,501 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:22:58,677 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:23:00,925 basehttp 1727250 137996052461120 "GET /admin/reporting/auditlog/add/ HTTP/1.1" 200 21606
+INFO 2025-08-13 18:23:00,982 basehttp 1727250 137996034627136 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:23:19,090 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:23:24,928 basehttp 1727250 137996052461120 "GET /admin/users/user/ HTTP/1.1" 200 21727
+INFO 2025-08-13 18:23:25,006 basehttp 1727250 137996034627136 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:23:32,077 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:24:59,135 basehttp 1727250 137996052461120 "GET /admin/reporting/report/ HTTP/1.1" 200 16616
+INFO 2025-08-13 18:24:59,207 basehttp 1727250 137996034627136 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:24:59,291 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:25:02,423 basehttp 1727250 137996052461120 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 15971
+INFO 2025-08-13 18:25:02,486 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:25:02,571 log 1727250 137996034627136 Not Found: /favicon.ico
+INFO 2025-08-13 18:25:05,675 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:25:10,192 basehttp 1727250 137996052461120 "GET /admin/reporting/auditlog/add/ HTTP/1.1" 200 21606
+INFO 2025-08-13 18:25:10,281 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:25:12,445 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:25:15,873 basehttp 1727250 137996052461120 "GET /admin/reporting/dashboard/add/ HTTP/1.1" 200 18428
+INFO 2025-08-13 18:25:15,934 basehttp 1727250 137996052461120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:25:17,751 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18725
+INFO 2025-08-13 18:25:20,433 basehttp 1727250 137996052461120 "GET /admin/reporting/report/add/ HTTP/1.1" 200 20790
+INFO 2025-08-13 18:25:20,492 basehttp 1727250 137996043019840 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:25:34,891 basehttp 1727250 137996052461120 "POST /admin/reporting/report/add/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:25:34,941 basehttp 1727250 137996052461120 "GET /admin/reporting/report/ HTTP/1.1" 200 19340
+INFO 2025-08-13 18:25:35,053 basehttp 1727250 137996043019840 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:25:41,509 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18735
+INFO 2025-08-13 18:25:45,825 basehttp 1727250 137996052461120 "GET /admin/reporting/report/ HTTP/1.1" 200 19069
+INFO 2025-08-13 18:25:45,893 basehttp 1727250 137996043019840 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:25:48,965 basehttp 1727250 137996052461120 "GET /admin/ HTTP/1.1" 200 18735
+INFO 2025-08-13 18:29:42,212 autoreload 1727250 137996136307584 /home/prooftag-catis/Bureau/Mig/backend/notifications/apps.py changed, reloading.
+INFO 2025-08-13 18:29:42,891 autoreload 1738385 125163095436160 Watching for file changes with StatReloader
+INFO 2025-08-13 18:31:28,410 basehttp 1738385 125163012093504 "GET /admin/reporting/report/add/ HTTP/1.1" 200 20790
+INFO 2025-08-13 18:31:28,490 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:31:44,570 basehttp 1738385 125163012093504 "POST /admin/reporting/report/add/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:31:44,627 basehttp 1738385 125163012093504 "GET /admin/reporting/report/ HTTP/1.1" 200 19901
+INFO 2025-08-13 18:31:44,725 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:31:52,518 basehttp 1738385 125163012093504 "GET /admin/reporting/report/add/ HTTP/1.1" 200 20790
+INFO 2025-08-13 18:31:52,607 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:31:55,100 basehttp 1738385 125163012093504 "GET /admin/reporting/report/ HTTP/1.1" 200 19635
+INFO 2025-08-13 18:32:04,159 basehttp 1738385 125163012093504 "POST /admin/reporting/report/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:32:04,202 basehttp 1738385 125163012093504 "GET /admin/reporting/report/ HTTP/1.1" 200 19854
+INFO 2025-08-13 18:32:04,297 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:32:04,365 log 1738385 125162930304576 Not Found: /favicon.ico
+INFO 2025-08-13 18:32:10,251 basehttp 1738385 125163012093504 "POST /admin/reporting/report/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:32:10,293 basehttp 1738385 125163012093504 "GET /admin/reporting/report/ HTTP/1.1" 200 19770
+INFO 2025-08-13 18:32:10,399 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:32:10,505 log 1738385 125162930304576 Not Found: /favicon.ico
+INFO 2025-08-13 18:32:31,445 basehttp 1738385 125163012093504 "GET /admin/ HTTP/1.1" 200 18742
+INFO 2025-08-13 18:32:36,612 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 15971
+INFO 2025-08-13 18:32:36,677 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:32:36,758 log 1738385 125162930304576 Not Found: /favicon.ico
+INFO 2025-08-13 18:32:39,196 basehttp 1738385 125163012093504 "GET /admin/ HTTP/1.1" 200 18742
+INFO 2025-08-13 18:32:42,840 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/add/ HTTP/1.1" 200 18428
+INFO 2025-08-13 18:32:42,900 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:32:42,999 log 1738385 125162930304576 Not Found: /favicon.ico
+INFO 2025-08-13 18:32:53,396 basehttp 1738385 125163012093504 "POST /admin/reporting/dashboard/add/ HTTP/1.1" 200 18708
+INFO 2025-08-13 18:32:53,457 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:32:53,533 log 1738385 125162921911872 Not Found: /favicon.ico
+INFO 2025-08-13 18:33:11,553 basehttp 1738385 125163012093504 "POST /admin/reporting/dashboard/add/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:33:11,608 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 18356
+INFO 2025-08-13 18:33:11,721 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:33:16,445 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/682854a7-5269-4674-87ea-b5585bd3f3d4/change/ HTTP/1.1" 200 18911
+INFO 2025-08-13 18:33:16,559 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-13 18:33:16,651 log 1738385 125162921911872 Not Found: /favicon.ico
+INFO 2025-08-13 18:33:19,934 basehttp 1738385 125163012093504 "POST /admin/reporting/dashboard/682854a7-5269-4674-87ea-b5585bd3f3d4/change/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:33:20,027 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 18359
+INFO 2025-08-13 18:33:20,125 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:33:28,580 basehttp 1738385 125163012093504 "GET /admin/reporting/ HTTP/1.1" 200 6932
+INFO 2025-08-13 18:33:32,309 basehttp 1738385 125163012093504 "GET /admin/reporting/report/ HTTP/1.1" 200 19635
+INFO 2025-08-13 18:33:32,383 basehttp 1738385 125163012093504 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:33:35,273 basehttp 1738385 125163012093504 "GET /admin/reporting/ HTTP/1.1" 200 6932
+INFO 2025-08-13 18:33:36,848 basehttp 1738385 125163012093504 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 18060
+INFO 2025-08-13 18:33:36,912 basehttp 1738385 125162921911872 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:33:38,505 basehttp 1738385 125163012093504 "GET /admin/reporting/ HTTP/1.1" 200 6932
+INFO 2025-08-13 18:33:39,895 basehttp 1738385 125163012093504 "GET /admin/reporting/auditlog/ HTTP/1.1" 200 16526
+INFO 2025-08-13 18:33:39,958 basehttp 1738385 125162921911872 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:33:42,905 basehttp 1738385 125163012093504 "GET /admin/reporting/ HTTP/1.1" 200 6932
+INFO 2025-08-13 18:33:44,661 basehttp 1738385 125163012093504 "GET /admin/reporting/auditlog/add/ HTTP/1.1" 200 21606
+INFO 2025-08-13 18:33:44,725 basehttp 1738385 125162921911872 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:34:05,424 basehttp 1738385 125163012093504 "POST /admin/reporting/auditlog/add/ HTTP/1.1" 302 0
+INFO 2025-08-13 18:34:05,467 basehttp 1738385 125163012093504 "GET /admin/reporting/auditlog/ HTTP/1.1" 200 19323
+INFO 2025-08-13 18:34:05,587 basehttp 1738385 125162921911872 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-13 18:34:17,103 basehttp 1738385 125163012093504 "GET /admin/reporting/ HTTP/1.1" 200 6932
+INFO 2025-08-13 18:34:20,098 basehttp 1738385 125163012093504 "GET /admin/ HTTP/1.1" 200 18850
+INFO 2025-08-14 09:44:09,712 autoreload 1894301 139915034561408 Watching for file changes with StatReloader
+INFO 2025-08-14 09:45:20,516 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30306
+INFO 2025-08-14 09:45:20,585 basehttp 1894301 139914859505216 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,587 basehttp 1894301 139914867897920 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,587 basehttp 1894301 139914945664576 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-08-14 09:45:20,588 basehttp 1894301 139914851112512 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,591 basehttp 1894301 139914859505216 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,592 basehttp 1894301 139914834327104 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,593 basehttp 1894301 139914842719808 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:45:20,648 basehttp 1894301 139914851112512 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-08-14 09:45:20,649 basehttp 1894301 139914834327104 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-14 09:45:20,649 basehttp 1894301 139914867897920 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-14 09:45:35,831 services 1894301 139914945664576 Action auditée: logout - Déconnexion utilisateur: mdpsignemoisejordan@gmail.com
+INFO 2025-08-14 09:45:35,865 basehttp 1894301 139914945664576 "POST /admin/logout/ HTTP/1.1" 200 3669
+INFO 2025-08-14 09:45:43,096 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-14 09:45:43,134 basehttp 1894301 139914945664576 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4274
+INFO 2025-08-14 09:45:43,223 basehttp 1894301 139914834327104 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-08-14 09:46:02,583 services 1894301 139914945664576 Action auditée: login - Connexion utilisateur: mdpsignemoisejordan@gmail.com
+INFO 2025-08-14 09:46:02,617 basehttp 1894301 139914945664576 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-14 09:46:02,658 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30306
+INFO 2025-08-14 09:46:39,599 basehttp 1894301 139914945664576 "GET /admin/users/user/ HTTP/1.1" 200 30289
+INFO 2025-08-14 09:46:39,711 basehttp 1894301 139914851112512 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,726 basehttp 1894301 139914859505216 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,726 basehttp 1894301 139914842719808 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,727 basehttp 1894301 139914851112512 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,731 basehttp 1894301 139914945664576 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,728 basehttp 1894301 139914867897920 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,734 basehttp 1894301 139914867897920 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,734 basehttp 1894301 139914859505216 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,730 basehttp 1894301 139914834327104 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:46:39,734 basehttp 1894301 139914842719808 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,734 basehttp 1894301 139914945664576 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:46:39,780 basehttp 1894301 139914834327104 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-08-14 09:46:39,784 basehttp 1894301 139914851112512 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-08-14 09:46:39,784 basehttp 1894301 139914859505216 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-08-14 09:46:39,905 basehttp 1894301 139914834327104 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-08-14 09:46:39,906 basehttp 1894301 139914851112512 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+WARNING 2025-08-14 09:46:39,956 log 1894301 139914834327104 Not Found: /favicon.ico
+INFO 2025-08-14 09:46:47,334 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30306
+INFO 2025-08-14 09:46:51,723 basehttp 1894301 139914945664576 "GET /admin/reporting/ HTTP/1.1" 200 6932
+WARNING 2025-08-14 09:46:51,874 log 1894301 139914851112512 Not Found: /favicon.ico
+INFO 2025-08-14 09:46:54,009 basehttp 1894301 139914945664576 "GET /admin/reporting/auditlog/ HTTP/1.1" 200 27588
+INFO 2025-08-14 09:46:54,151 basehttp 1894301 139914859505216 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:46:57,644 basehttp 1894301 139914945664576 "GET /admin/reporting/ HTTP/1.1" 200 6932
+WARNING 2025-08-14 09:46:57,827 log 1894301 139914859505216 Not Found: /favicon.ico
+INFO 2025-08-14 09:46:59,265 basehttp 1894301 139914945664576 "GET /admin/reporting/dashboard/ HTTP/1.1" 200 26622
+INFO 2025-08-14 09:46:59,367 basehttp 1894301 139914867897920 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:47:01,950 basehttp 1894301 139914945664576 "GET /admin/reporting/ HTTP/1.1" 200 6932
+WARNING 2025-08-14 09:47:02,157 log 1894301 139914867897920 Not Found: /favicon.ico
+INFO 2025-08-14 09:47:03,294 basehttp 1894301 139914945664576 "GET /admin/reporting/report/ HTTP/1.1" 200 28197
+INFO 2025-08-14 09:47:03,407 basehttp 1894301 139914842719808 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:47:07,687 basehttp 1894301 139914945664576 "GET /admin/reporting/ HTTP/1.1" 200 6932
+WARNING 2025-08-14 09:47:07,864 log 1894301 139914842719808 Not Found: /favicon.ico
+INFO 2025-08-14 09:47:08,302 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30306
+INFO 2025-08-14 09:47:12,054 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+WARNING 2025-08-14 09:47:12,188 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:47:13,667 basehttp 1894301 139914945664576 "GET /admin/notifications/emailtemplate/ HTTP/1.1" 200 23770
+INFO 2025-08-14 09:47:13,788 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:47:16,341 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+WARNING 2025-08-14 09:47:16,543 log 1894301 139914834327104 Not Found: /favicon.ico
+INFO 2025-08-14 09:47:18,188 basehttp 1894301 139914945664576 "GET /admin/notifications/emailtemplate/add/ HTTP/1.1" 200 25415
+INFO 2025-08-14 09:47:18,259 basehttp 1894301 139914859505216 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-08-14 09:47:18,272 basehttp 1894301 139914851112512 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:47:18,282 basehttp 1894301 139914851112512 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:47:18,296 basehttp 1894301 139914867897920 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-08-14 09:47:18,351 basehttp 1894301 139914851112512 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-08-14 09:47:46,610 basehttp 1894301 139914945664576 "POST /admin/notifications/emailtemplate/add/ HTTP/1.1" 302 0
+INFO 2025-08-14 09:47:46,646 basehttp 1894301 139914945664576 "GET /admin/notifications/emailtemplate/ HTTP/1.1" 200 25781
+INFO 2025-08-14 09:47:46,805 basehttp 1894301 139914851112512 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:47:46,986 log 1894301 139914851112512 Not Found: /favicon.ico
+INFO 2025-08-14 09:47:59,814 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+INFO 2025-08-14 09:48:01,932 basehttp 1894301 139914945664576 "GET /admin/notifications/notificationpreference/ HTTP/1.1" 200 24543
+INFO 2025-08-14 09:48:02,053 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:48:04,182 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+WARNING 2025-08-14 09:48:04,435 log 1894301 139914851112512 Not Found: /favicon.ico
+INFO 2025-08-14 09:48:06,070 basehttp 1894301 139914945664576 "GET /admin/notifications/notificationpreference/add/ HTTP/1.1" 200 30334
+INFO 2025-08-14 09:48:06,157 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:48:20,735 basehttp 1894301 139914945664576 "POST /admin/notifications/notificationpreference/add/ HTTP/1.1" 302 0
+INFO 2025-08-14 09:48:20,819 basehttp 1894301 139914945664576 "GET /admin/notifications/notificationpreference/ HTTP/1.1" 200 27052
+INFO 2025-08-14 09:48:20,935 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:48:21,036 log 1894301 139914842719808 Not Found: /favicon.ico
+WARNING 2025-08-14 09:48:21,037 basehttp 1894301 139914842719808 "GET /favicon.ico HTTP/1.1" 404 3478
+INFO 2025-08-14 09:48:24,624 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+INFO 2025-08-14 09:48:28,525 basehttp 1894301 139914945664576 "GET /admin/notifications/emailtemplate/ HTTP/1.1" 200 25552
+INFO 2025-08-14 09:48:28,691 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:48:28,819 log 1894301 139914851112512 Not Found: /favicon.ico
+INFO 2025-08-14 09:48:30,957 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+WARNING 2025-08-14 09:48:31,116 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:48:34,896 basehttp 1894301 139914945664576 "GET /admin/notifications/notification/ HTTP/1.1" 200 25711
+INFO 2025-08-14 09:48:35,024 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:48:35,169 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:48:37,096 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+INFO 2025-08-14 09:48:38,913 basehttp 1894301 139914945664576 "GET /admin/notifications/notification/add/ HTTP/1.1" 200 32212
+INFO 2025-08-14 09:48:39,021 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:49:26,218 basehttp 1894301 139914945664576 "POST /admin/notifications/notification/add/ HTTP/1.1" 302 0
+INFO 2025-08-14 09:49:26,259 basehttp 1894301 139914945664576 "GET /admin/notifications/notification/ HTTP/1.1" 200 28701
+INFO 2025-08-14 09:49:26,416 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:49:26,529 log 1894301 139914859505216 Not Found: /favicon.ico
+INFO 2025-08-14 09:49:36,448 basehttp 1894301 139914945664576 "GET /admin/notifications/ HTTP/1.1" 200 7229
+INFO 2025-08-14 09:49:38,778 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30311
+WARNING 2025-08-14 09:49:38,926 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:49:44,486 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+WARNING 2025-08-14 09:49:44,661 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:49:46,177 basehttp 1894301 139914945664576 "GET /admin/api_integration/apikey/ HTTP/1.1" 200 24985
+INFO 2025-08-14 09:49:46,248 basehttp 1894301 139914859505216 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-08-14 09:49:46,260 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:49:48,743 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+WARNING 2025-08-14 09:49:48,940 log 1894301 139914859505216 Not Found: /favicon.ico
+INFO 2025-08-14 09:49:50,572 basehttp 1894301 139914945664576 "GET /admin/api_integration/apikey/add/ HTTP/1.1" 200 34797
+INFO 2025-08-14 09:49:50,702 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:49:50,712 basehttp 1894301 139914834327104 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:49:50,712 basehttp 1894301 139914867897920 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-08-14 09:49:50,760 basehttp 1894301 139914867897920 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-08-14 09:49:50,967 basehttp 1894301 139914867897920 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-08-14 09:49:50,967 basehttp 1894301 139914834327104 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-08-14 09:50:21,115 basehttp 1894301 139914945664576 "POST /admin/api_integration/apikey/add/ HTTP/1.1" 200 35143
+INFO 2025-08-14 09:50:21,246 basehttp 1894301 139914867897920 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:50:21,446 log 1894301 139914867897920 Not Found: /favicon.ico
+INFO 2025-08-14 09:50:43,218 basehttp 1894301 139914945664576 "GET /admin/api_integration/apikey/ HTTP/1.1" 200 24985
+INFO 2025-08-14 09:50:43,314 basehttp 1894301 139914834327104 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:50:43,464 log 1894301 139914834327104 Not Found: /favicon.ico
+INFO 2025-08-14 09:50:45,357 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+INFO 2025-08-14 09:50:47,660 basehttp 1894301 139914945664576 "GET /admin/api_integration/webhookdelivery/ HTTP/1.1" 200 24915
+INFO 2025-08-14 09:50:47,780 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:50:47,914 log 1894301 139914867897920 Not Found: /favicon.ico
+INFO 2025-08-14 09:50:49,308 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+INFO 2025-08-14 09:50:51,148 basehttp 1894301 139914945664576 "GET /admin/api_integration/externalservice/ HTTP/1.1" 200 24980
+INFO 2025-08-14 09:50:51,280 basehttp 1894301 139914834327104 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:50:51,359 log 1894301 139914834327104 Not Found: /favicon.ico
+INFO 2025-08-14 09:50:53,667 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+INFO 2025-08-14 09:50:55,576 basehttp 1894301 139914945664576 "GET /admin/api_integration/externalservice/add/ HTTP/1.1" 200 34193
+INFO 2025-08-14 09:50:55,702 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:50:55,711 basehttp 1894301 139914842719808 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-08-14 09:51:13,491 basehttp 1894301 139914945664576 "GET /admin/api_integration/externalservice/ HTTP/1.1" 200 24980
+INFO 2025-08-14 09:51:13,589 basehttp 1894301 139914842719808 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:51:13,727 log 1894301 139914842719808 Not Found: /favicon.ico
+INFO 2025-08-14 09:51:14,768 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+INFO 2025-08-14 09:51:18,145 basehttp 1894301 139914945664576 "GET /admin/api_integration/servicehealthcheck/add/ HTTP/1.1" 200 28033
+INFO 2025-08-14 09:51:18,259 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:51:18,396 log 1894301 139914824885824 Not Found: /favicon.ico
+INFO 2025-08-14 09:51:28,085 basehttp 1894301 139914945664576 "GET /admin/api_integration/ HTTP/1.1" 200 9308
+INFO 2025-08-14 09:51:32,691 basehttp 1894301 139914945664576 "GET /admin/api_integration/webhook/add/ HTTP/1.1" 200 33477
+INFO 2025-08-14 09:51:32,815 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:51:32,972 log 1894301 139914842719808 Not Found: /favicon.ico
+INFO 2025-08-14 09:51:43,354 basehttp 1894301 139914945664576 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 09:51:55,712 basehttp 1894301 139914945664576 "GET /admin/demandes/commentairedemande/ HTTP/1.1" 200 25031
+INFO 2025-08-14 09:51:55,844 basehttp 1894301 139914859505216 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-08-14 09:51:55,853 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 09:51:56,022 log 1894301 139914859505216 Not Found: /favicon.ico
+INFO 2025-08-14 09:51:57,918 basehttp 1894301 139914945664576 "GET /admin/demandes/ HTTP/1.1" 200 7748
+WARNING 2025-08-14 09:51:58,041 log 1894301 139914945664576 Not Found: /favicon.ico
+INFO 2025-08-14 09:51:59,273 basehttp 1894301 139914945664576 "GET /admin/demandes/demande/ HTTP/1.1" 200 26273
+INFO 2025-08-14 09:51:59,411 basehttp 1894301 139914945664576 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:52:01,468 basehttp 1894301 139914945664576 "GET /admin/demandes/ HTTP/1.1" 200 7748
+WARNING 2025-08-14 09:52:01,641 log 1894301 139914824885824 Not Found: /favicon.ico
+INFO 2025-08-14 09:52:02,968 basehttp 1894301 139914945664576 "GET /admin/demandes/document/ HTTP/1.1" 200 25571
+INFO 2025-08-14 09:52:03,158 basehttp 1894301 139914867897920 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:52:05,103 basehttp 1894301 139914945664576 "GET /admin/demandes/ HTTP/1.1" 200 7748
+INFO 2025-08-14 09:52:06,383 basehttp 1894301 139914945664576 "GET /admin/demandes/historiquedemande/ HTTP/1.1" 200 26238
+INFO 2025-08-14 09:52:06,523 basehttp 1894301 139914867897920 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 09:52:08,368 basehttp 1894301 139914945664576 "GET /admin/demandes/ HTTP/1.1" 200 7748
+ERROR 2025-08-14 09:52:11,316 log 1894301 139914945664576 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'days_since_submission'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 121, in days_since_submission
+    return (date.today() - self.date_soumission).days
+            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'NoneType'
+ERROR 2025-08-14 09:52:11,323 basehttp 1894301 139914945664576 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 606606
+INFO 2025-08-14 09:56:24,131 autoreload 1894301 139915034561408 /home/prooftag-catis/Bureau/Mig/backend/demandes/models.py changed, reloading.
+INFO 2025-08-14 09:56:25,042 autoreload 1907574 139695861713792 Watching for file changes with StatReloader
+INFO 2025-08-14 09:57:25,151 autoreload 1908935 127883127012224 Watching for file changes with StatReloader
+ERROR 2025-08-14 09:57:30,648 log 1908935 127882972272192 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 128, in is_overdue
+    return self.days_since_submission > 30 and self.status in ['soumise', 'en_examen']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-08-14 09:57:30,653 basehttp 1908935 127882972272192 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 607517
+ERROR 2025-08-14 09:57:32,179 log 1908935 127882972272192 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 128, in is_overdue
+    return self.days_since_submission > 30 and self.status in ['soumise', 'en_examen']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-08-14 09:57:32,183 basehttp 1908935 127882972272192 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 607517
+INFO 2025-08-14 09:57:33,956 basehttp 1908935 127882972272192 "GET /admin/demandes/ HTTP/1.1" 200 7748
+ERROR 2025-08-14 09:57:36,491 log 1908935 127882972272192 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 128, in is_overdue
+    return self.days_since_submission > 30 and self.status in ['soumise', 'en_examen']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-08-14 09:57:36,495 basehttp 1908935 127882972272192 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 607517
+WARNING 2025-08-14 09:57:36,581 log 1908935 127882972272192 Not Found: /favicon.ico
+INFO 2025-08-14 10:07:52,479 autoreload 1908935 127883127012224 /home/prooftag-catis/Bureau/Mig/backend/demandes/models.py changed, reloading.
+INFO 2025-08-14 10:07:53,310 autoreload 1919195 136427852901248 Watching for file changes with StatReloader
+ERROR 2025-08-14 10:09:40,065 log 1919195 136427689997888 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 128, in is_overdue
+    return self.days_since_submission > 30 and self.status in ['soumise', 'en_examen']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-08-14 10:09:40,072 basehttp 1919195 136427689997888 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 607517
+INFO 2025-08-14 10:09:42,412 basehttp 1919195 136427689997888 "GET /admin/demandes/ HTTP/1.1" 200 7748
+INFO 2025-08-14 10:09:45,514 basehttp 1919195 136427689997888 "GET /admin/demandes/ HTTP/1.1" 200 7748
+INFO 2025-08-14 10:10:06,309 autoreload 1921602 138960165833600 Watching for file changes with StatReloader
+INFO 2025-08-14 10:10:13,297 basehttp 1921602 138960077755968 "GET /admin/demandes/ HTTP/1.1" 200 7748
+INFO 2025-08-14 10:10:16,261 basehttp 1921602 138960077755968 "GET /admin/demandes/commentairedemande/add/ HTTP/1.1" 200 29372
+INFO 2025-08-14 10:10:16,354 basehttp 1921602 138960077755968 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:10:23,268 basehttp 1921602 138960077755968 "GET /admin/demandes/commentairedemande/ HTTP/1.1" 200 25031
+INFO 2025-08-14 10:10:23,327 basehttp 1921602 138960077755968 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:10:25,035 basehttp 1921602 138960077755968 "GET /admin/demandes/ HTTP/1.1" 200 7748
+ERROR 2025-08-14 10:10:29,065 log 1921602 138960077755968 Internal Server Error: /admin/demandes/document/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Document has no field named 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 224, in taille_fichier_readable
+    if self.taille_fichier < 1024.0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+ERROR 2025-08-14 10:10:29,070 basehttp 1921602 138960077755968 "GET /admin/demandes/document/add/ HTTP/1.1" 500 611784
+INFO 2025-08-14 10:10:43,160 basehttp 1921602 138960077755968 "GET /admin/demandes/ HTTP/1.1" 200 7748
+INFO 2025-08-14 10:10:45,886 basehttp 1921602 138960077755968 "GET /admin/demandes/historiquedemande/add/ HTTP/1.1" 200 27461
+INFO 2025-08-14 10:10:45,949 basehttp 1921602 138960077755968 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:10:49,476 basehttp 1921602 138960077755968 "GET /admin/demandes/ HTTP/1.1" 200 7748
+ERROR 2025-08-14 10:10:54,789 log 1921602 138960077755968 Internal Server Error: /admin/demandes/demande/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Demande has no field named 'is_overdue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 128, in is_overdue
+    return self.days_since_submission > 30 and self.status in ['soumise', 'en_examen']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2025-08-14 10:10:54,793 basehttp 1921602 138960077755968 "GET /admin/demandes/demande/add/ HTTP/1.1" 500 607517
+WARNING 2025-08-14 10:10:54,892 log 1921602 138960077755968 Not Found: /favicon.ico
+INFO 2025-08-14 10:20:55,248 autoreload 1921602 138960165833600 /home/prooftag-catis/Bureau/Mig/backend/demandes/models.py changed, reloading.
+INFO 2025-08-14 10:20:56,060 autoreload 1932312 130886843292544 Watching for file changes with StatReloader
+INFO 2025-08-14 10:21:06,456 basehttp 1932312 130886755587648 "GET /admin/demandes/demande/add/ HTTP/1.1" 200 41347
+INFO 2025-08-14 10:21:06,531 basehttp 1932312 130886755587648 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:21:19,153 basehttp 1932312 130886755587648 "GET /admin/demandes/demande/ HTTP/1.1" 200 26273
+INFO 2025-08-14 10:21:19,218 basehttp 1932312 130886755587648 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:21:21,633 basehttp 1932312 130886755587648 "GET /admin/demandes/ HTTP/1.1" 200 7748
+ERROR 2025-08-14 10:21:24,476 log 1932312 130886755587648 Internal Server Error: /admin/demandes/document/add/
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Document has no field named 'taille_fichier_readable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 1075, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 722, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 854, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/template/base.py", line 925, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/helpers.py", line 275, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/venv3/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 302, in lookup_field
+    attr = getattr(obj, name, sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prooftag-catis/Bureau/Mig/backend/demandes/models.py", line 227, in taille_fichier_readable
+    if self.taille_fichier < 1024.0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+ERROR 2025-08-14 10:21:24,483 basehttp 1932312 130886755587648 "GET /admin/demandes/document/add/ HTTP/1.1" 500 611784
+INFO 2025-08-14 10:27:42,714 autoreload 1932312 130886843292544 /home/prooftag-catis/Bureau/Mig/backend/demandes/models.py changed, reloading.
+INFO 2025-08-14 10:27:43,554 autoreload 1939387 126185383115648 Watching for file changes with StatReloader
+INFO 2025-08-14 10:28:39,796 autoreload 1939387 126185383115648 /home/prooftag-catis/Bureau/Mig/backend/demandes/models.py changed, reloading.
+INFO 2025-08-14 10:28:40,582 autoreload 1940370 126539273378688 Watching for file changes with StatReloader
+INFO 2025-08-14 10:30:07,221 basehttp 1940370 126539118319168 "GET /admin/demandes/document/add/ HTTP/1.1" 200 37948
+INFO 2025-08-14 10:30:07,291 basehttp 1940370 126539118319168 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+WARNING 2025-08-14 10:30:07,393 log 1940370 126539107829312 Not Found: /favicon.ico
+INFO 2025-08-14 10:30:21,950 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:30:42,248 basehttp 1940370 126539118319168 "GET /admin/system_admin/systemconfiguration/add/ HTTP/1.1" 200 29838
+INFO 2025-08-14 10:30:42,319 basehttp 1940370 126539118319168 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:30:44,727 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:30:46,098 basehttp 1940370 126539118319168 "GET /admin/system_admin/auditlog/add/ HTTP/1.1" 200 31851
+INFO 2025-08-14 10:30:46,161 basehttp 1940370 126539107829312 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:30:47,859 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:30:49,975 basehttp 1940370 126539118319168 "GET /admin/system_admin/systemmaintenance/add/ HTTP/1.1" 200 34066
+INFO 2025-08-14 10:30:50,036 basehttp 1940370 126539107829312 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:30:51,692 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:30:53,267 basehttp 1940370 126539118319168 "GET /admin/system_admin/systemmetrics/add/ HTTP/1.1" 200 26534
+INFO 2025-08-14 10:30:53,329 basehttp 1940370 126539107829312 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 10:31:03,092 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:52:03,992 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311
+INFO 2025-08-14 10:52:04,043 basehttp 1940370 126539118319168 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-08-14 11:32:47,898 basehttp 1940370 126539118319168 "GET /admin/system_admin/systemconfiguration/add/ HTTP/1.1" 200 29838
+INFO 2025-08-14 11:32:47,973 basehttp 1940370 126539118319168 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-08-14 11:32:48,003 basehttp 1940370 126539118319168 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-08-14 11:32:50,949 basehttp 1940370 126539118319168 "GET /admin/ HTTP/1.1" 200 30311

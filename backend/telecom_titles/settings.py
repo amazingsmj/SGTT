@@ -43,10 +43,17 @@ INSTALLED_APPS = [
     'titres',
     'demandes',
     'core',
+    # Nouvelles apps pour modules 5-8
+    'reporting',
+    'notifications',
+    'system_admin',
+    'api_integration',
 
     # Autres 
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_filters',    # NOUVEAU
+    'corsheaders',       # NOUVEAU
 ]
 
 # User personnalisé
@@ -81,7 +88,16 @@ SIMPLE_JWT = {
     'USER_ID_CLAIM': 'user_id',
 }
 
+# NOUVEAU - Configuration CORS
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
 MIDDLEWARE = [
+    #'corsheaders.middleware.CorsMiddleware',  # NOUVEAU - En premier
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -89,8 +105,67 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    #'api_integration.middleware.APIKeyMiddleware',  # NOUVEAU
 ]
 
+
+# NOUVEAU - Configuration Media Files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# NOUVEAU - Configuration Email
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'smartsmj9@gmail.com'  # À remplacer
+EMAIL_HOST_PASSWORD = 'CIRUSMCGB'  # À remplacer
+DEFAULT_FROM_EMAIL = 'smartsmj9@gmail.com'
+
+# NOUVEAU - Configuration Logging
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs' / 'django.log',
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'notifications': {
+            'handlers': ['file', 'console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'system_admin': {
+            'handlers': ['file', 'console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+
+# NOUVEAU - URL Frontend (pour les notifications par email)
+FRONTEND_URL = 'http://localhost:3000'
 ROOT_URLCONF = 'telecom_titles.urls'
 
 TEMPLATES = [
